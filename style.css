@@ -96,6 +96,10 @@ li{
     width: 100%;
 }
 
+#about-me img{
+    border-radius: 5vh;
+}
+
 .skills{
     display: flex;
     align-items: center;
@@ -198,6 +202,10 @@ footer {
 .footerc__socials a {
     color: white;
     font-size: 5vw;
+}
+
+.footerc__socials svg:hover{
+    height: 45px;
 }
 
 footer h3 {
