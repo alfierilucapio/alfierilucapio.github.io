@@ -242,7 +242,7 @@ footer h3 {
         display: none;
     }
 
-    h3{
+    nav h3{
         font-size: 5vw;
     }
 
@@ -251,7 +251,7 @@ footer h3 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        padding-top:8vw;
+        padding-top:25vw;
         padding-bottom: 12vw;
         padding-inline: 4vw;
     }
@@ -271,5 +271,90 @@ footer h3 {
 
     #pc_img{
         display: none;
+    }
+
+    #about-me{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #about-me img{
+        width: 100%;
+    }
+
+    .text-side{
+        text-align: center;
+    }
+
+    .text-side h3{
+        font-size: 6vw;
+        padding-bottom: 3vh;  
+        padding-top: 3vh;  
+    }
+
+    .text-side h4{
+        font-size: 10vw;
+    }
+
+    .skills{
+        margin-top: 6vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills_p{
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        border-bottom: 3px solid rgba(40, 40, 40, 0.85);
+        font-size: 6vw;
+    }
+
+    .logos img{
+        width: 30%;
+    }
+
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 3vh;
+    }
+    
+    .contact-title p{
+        font-size: 7vw;
+    }
+    
+    .contact-title h3{
+        font-size: 11vw;
+    }
+
+    .contact__icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .contact__icon-box{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .contact__info{
+        font-size: 4.5vw;
+    }
+
+    #contact{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .footerc__socials svg:hover{
+        height: 30px;
+    }
+
+    footer h3 {
+        font-size: 2.7vw;
     }
 }
