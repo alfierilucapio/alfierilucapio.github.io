@@ -87,6 +87,11 @@ li{
     font-size: 1.5vw;
 }
 
+.socials a{
+    color: white;
+    font-size: 5vw;
+}
+
 #about{
     width: 100%;
 }
@@ -96,6 +101,7 @@ li{
     align-items: center;
     font-size: 3.5vw;
     padding: 4.3vh;
+    padding:3.7vw;
 }
 
 .skills_p{
@@ -172,6 +178,11 @@ li{
 
 .contact__info{
     padding-left: 2.5vw;
+}
+
+.contact__info a:hover,.contact__info p:hover{
+    color: #147efb;
+    cursor:pointer;
 }
 
 .contact__icon-box span{
