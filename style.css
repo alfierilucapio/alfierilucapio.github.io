@@ -29,6 +29,9 @@ nav{
     font-size: 1.5vw;
     font-family: 'Poppins', bold;
     align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
 }
 
 #logo{
@@ -61,6 +64,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     background-color: black;
+    padding-top: 14.7vh;
 }
 
 #mobile_img{
@@ -129,6 +133,49 @@ li{
 
 .text-side p{
     color: #767676;
+}
+
+#contact{
+    width: 100%;
+    padding: 3.5vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.contact-title{
+    padding-bottom: 6vh;
+}
+
+.contact-title p{
+    color: #147efb;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    padding-bottom: 3vh;  
+}
+
+.contact-title h3{
+    font-size: 2.5vw;
+    padding-bottom: 3vh;
+}
+
+.contact__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact__icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact__info{
+    padding-left: 2.5vw;
+}
+
+.contact__icon-box span{
+    color: #147efb;
 }
 
 @media screen and (max-width: 600px){
