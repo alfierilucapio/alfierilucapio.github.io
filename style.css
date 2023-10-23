@@ -82,3 +82,53 @@ li{
 #home_p{
     font-size: 1.5vw;
 }
+
+@media screen and (max-width: 600px){
+    
+    nav{
+        padding: 1.5vh;
+    }
+
+    ul{
+        width: 7.5vw;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    li{
+        display: none;
+    }
+
+    h3{
+        font-size: 5vw;
+    }
+
+
+    #home{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top:8vw;
+        padding-bottom: 12vw;
+        padding-inline: 4vw;
+    }
+
+    #home_h1{
+        font-size: 11vw;
+        margin: 4%;
+    }
+    
+    #home_p{
+        font-size: 7vw;
+    }
+
+    #mobile_img{
+        display: block;
+    }
+
+    #pc_img{
+        display: none;
+    }
+}
