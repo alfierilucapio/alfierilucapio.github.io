@@ -60,6 +60,11 @@ li{
     padding-inline: 1vw;
 }
 
+nav ul li a:hover{
+    color: #147efb;
+    cursor:pointer;
+}
+
 #home{
     width: 100%;
     display: flex;
