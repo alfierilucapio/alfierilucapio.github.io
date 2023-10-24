@@ -64,11 +64,6 @@ li{
     padding-inline: 1vw;
 }
 
-li a:hover, button:hover{
-    color: #147efb;
-    cursor:pointer;
-}
-
 #home{
     width: 100%;
     display: flex;
@@ -311,6 +306,11 @@ footer h3 {
         display: block;
     }
 
+    li a:hover, button:hover{
+        color: #147efb;
+        cursor:pointer;
+    }
+
     #home{
         width: 100%;
         display: flex;
@@ -335,6 +335,14 @@ footer h3 {
 
     #pc_img{
         display: none;
+    }
+
+    .hello .socials{
+        padding-top: 10vw;
+    }
+
+    .socials a{
+        padding-inline: 4vw;
     }
 
     #about-me{
@@ -385,6 +393,10 @@ footer h3 {
         padding-top: 3vh;
     }
     
+    .logos img{
+        margin: 2vh;
+    }
+
     .contact-title p{
         font-size: 7vw;
     }

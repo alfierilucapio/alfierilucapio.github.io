@@ -29,7 +29,6 @@ function mostraDiv() {
         mioDiv.style.left = "-100%";
         mioDiv.style.opacity = "0";
         mioDiv.style.pointerEvents = "none";
-        mioDiv.style.transition ="left 0.5s ease-in-out, opacity 0.5s ease-in-out";
         hidden = true;
     }
 
