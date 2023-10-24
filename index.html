@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <!-- title -->
-    <title>>Alfieri Luca Pio | Full-Stack Web Developer</title>
+    <title>Alfieri Luca Pio | Full-Stack Web Developer</title>
 
     <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -17,6 +18,10 @@
 
     <!-- menu icon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+    <!-- javascript -->
+    <script src="script.js"></script>
+
   </head>
   <body>
 
@@ -40,10 +45,34 @@
               <a href="#contact">Contact</a>
           </li>
           <li id="menu">
-              <span class="material-symbols-outlined">menu</span>
+            <button id="mostraDiv" onclick="mostraDiv()">
+              <img src="./images/menu.png" width="20vw">
+            </button>
           </li>
       </ul>
-    </nav>
+    </nav>    
+
+    <!-- mobile menu -->
+    <div id="mioDiv" id="hidden">
+      <div id="close">
+        <button id="mostraDiv" onclick="mostraDiv()">
+          <img src="./images/close.png" width="30vw">
+        </button>
+      </div>
+      <div id="menuTendina">
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>  
+      </div>
+    </div>
 
     <!-- pages -->
     <div class="portfolio">

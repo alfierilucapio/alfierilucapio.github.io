@@ -32,6 +32,7 @@ nav{
     position: fixed;
     background-color: white;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 #logo{
@@ -246,6 +247,57 @@ footer h3 {
         font-size: 5vw;
     }
 
+    button{
+        border:none;
+        background-color: white;
+    }
+    
+    #hidden {
+        display: none;
+    }
+    
+    #mioDiv {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        position: fixed; /* Fissa il div nella finestra del browser */
+        top: 0;
+        left: -100%; /* Inizialmente il div è fuori dalla vista a sinistra */
+        opacity: 0; /* Assicura che il div sia inizialmente invisibile */
+        pointer-events: none;
+    }
+    
+    #close{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding: 2vw;
+    }
+    
+    #mioDiv.animazione {
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease-in-out; /* Aggiunge una transizione a left e opacity */
+    }
+    
+    #menuTendina{
+        height:100vh;
+    }
+
+    #menuTendina ul{
+        font-size: 10vw;
+        color:black;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80vh;
+        width: 100%;
+    }
+
+    #menuTendina ul li{
+        display: block;
+    }
 
     #home{
         width: 100%;
