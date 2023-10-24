@@ -17,6 +17,10 @@ html {
   'opsz' 24
 }
 
+#mostraDiv span{
+    font-size: 10vw;
+}
+
 a{
     color:black;
     text-decoration:none;
@@ -58,6 +62,11 @@ ul{
 
 li{
     padding-inline: 1vw;
+}
+
+li a:hover, button:hover{
+    color: #147efb;
+    cursor:pointer;
 }
 
 #home{
@@ -284,8 +293,11 @@ footer h3 {
         height:100vh;
     }
 
-    #menuTendina ul{
+    #menuTendina ul li button{
         font-size: 10vw;
+    }
+
+    #menuTendina ul{
         color:black;
         display: flex;
         text-align: center;
