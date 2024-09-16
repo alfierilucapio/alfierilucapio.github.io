@@ -69,6 +69,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-evenly;
     background-color: black;
+    padding-top: 3.7vh;
 }
 
 #mobile_img{
