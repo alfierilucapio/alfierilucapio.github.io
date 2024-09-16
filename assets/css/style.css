@@ -50,7 +50,6 @@ nav h3{
 
 ul{
     list-style-type: none;
-    width: 19vw;
     display: flex;
     justify-content: space-between;
     margin-right: 2vw;
@@ -197,9 +196,11 @@ nav ul li a:hover{
 
 .contact__icon-box span{
     color: #147efb;
-    fill: #147efb;
 }
 
+.whatsapp_icon{
+    fill:#147efb;
+}
 footer {
     background-color: #2d2e32;
     padding: 1.5vw 0;
