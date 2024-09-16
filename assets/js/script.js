@@ -4,35 +4,34 @@ let isOpen = false;
 
 function mostraDiv() {
     let isCountEven = count % 2 === 0;
+    let div = document.getElementById('mioDiv');
 
-    if(isCountEven){
-        var div = document.getElementById('mioDiv');
+    if (isCountEven) {
         div.style.display = 'block';
-    } else {
-        var div = document.getElementById('mioDiv');
-        div.style.display = 'none';
     }
 
-    var mioDiv = document.getElementById("mioDiv");
-    mioDiv.classList.remove("animazione"); // Rimuove la classe animazione
-    mioDiv.offsetWidth; // Forza un reflow per applicare nuovamente lo stile
-    mioDiv.classList.add("animazione"); // Aggiunge nuovamente la classe animazione
+    div.classList.remove("animazione");
+    div.offsetWidth; // Forza un reflow
+    div.classList.add("animazione");
 
     isOpen = !isOpen;
 
-    if(isOpen){
-        mioDiv.style.left = "0";
-        mioDiv.style.opacity = "1";
-        mioDiv.style.pointerEvents = "all";
+    if (isOpen) {
+        div.style.left = "0";
+        div.style.opacity = "1";
+        div.style.pointerEvents = "all";
         hidden = false;
     } else {
-        mioDiv.style.left = "-100%";
-        mioDiv.style.opacity = "0";
-        mioDiv.style.pointerEvents = "none";
+        div.style.left = "-100%";
+        div.style.opacity = "0";
+        div.style.pointerEvents = "none";
+        setTimeout(() => {
+            div.style.display = 'none';
+        }, 500); // Imposta un timeout per nascondere il div dopo l'animazione
         hidden = true;
     }
 
-    count ++;
+    count++;
     console.log('contatore =', count);
     console.log(isCountEven);
 }
