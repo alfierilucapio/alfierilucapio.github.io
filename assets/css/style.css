@@ -33,6 +33,7 @@ nav{
     background-color: white;
     width: 100%;
     flex-wrap: wrap;
+    z-index:1000;
 }
 
 #logo{
@@ -238,7 +239,7 @@ footer h3 {
         padding: 1.5vh;
     }
 
-    ul{
+    nav ul{
         width: 7.5vw;
     }
 
@@ -246,7 +247,7 @@ footer h3 {
         display: block;
     }
 
-    li{
+    nav li{
         display: none;
     }
 
@@ -276,6 +277,7 @@ footer h3 {
         left: -100%; /* Inizialmente il div è fuori dalla vista a sinistra */
         opacity: 0; /* Assicura che il div sia inizialmente invisibile */
         pointer-events: none;
+        z-index:1000;
     }
     
     #close{
@@ -288,7 +290,7 @@ footer h3 {
     #mioDiv.animazione {
         left: 0;
         opacity: 1;
-        transition: all 0.5s ease-in-out; /* Aggiunge una transizione a left e opacity */
+        transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a left e opacity */
     }
     
     #menuTendina{
