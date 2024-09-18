@@ -21,16 +21,14 @@
     border-radius: 20px;
     overflow: hidden;
     align-items: center;
-    vertical-align: middle;
 }
 
 .certificate-card-image{
-    vertical-align: middle;
     max-height: 50vh;
 }
 
 .certificate-card-image img{
-    padding: 40px;
+    padding: 21%;
     height:100%;
 }
 
