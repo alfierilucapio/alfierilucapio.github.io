@@ -29,7 +29,7 @@
     <!-- navbar -->
     <nav>
       <!-- logo -->
-      <div id="logo">
+      <div class="logo">
           <img src="./assets/images/Logo.jpeg" alt="logo" height="35vh">
           <h3>Alfieri Luca Pio</h3>
       </div>
@@ -48,8 +48,8 @@
           <li>
             <a href="assets/html/certificati.html">Certificati</a>
           </li>
-          <li id="menu">
-            <button id="mostraDiv" onclick="mostraDiv()">
+          <li class="menu">
+            <button class="mostraDiv" onclick="mostraDiv()">
               <span class="material-symbols-outlined">menu</span>
             </button>
           </li>
@@ -57,31 +57,31 @@
     </nav>    
 
     <!-- mobile menu -->
-    <div id="mioDiv" id="hidden">
-      <div id="close">
-        <button id="mostraDiv" onclick="mostraDiv()">
+    <div id="mioDiv" class="hidden">
+      <div class="close">
+        <button class="mostraDiv" onclick="mostraDiv()">
           <span class="material-symbols-outlined">close</span>
         </button>
       </div>
-      <div id="menuTendina">
+      <div class="menuTendina">
         <ul>
           <li>
-            <button id="mostraDiv" onclick="mostraDiv()">
+            <button class="mostraDiv" onclick="mostraDiv()">
               <a href="#home">Home</a>
             </button>
           </li>
           <li>
-            <button id="mostraDiv" onclick="mostraDiv()">
+            <button class="mostraDiv" onclick="mostraDiv()">
               <a href="#about">Su di me</a>
             </button>
           </li>
           <li>
-            <button id="mostraDiv" onclick="mostraDiv()">
+            <button class="mostraDiv" onclick="mostraDiv()">
               <a href="assets/html/certificati.html">Certificati</a>
             </button>
           </li>
           <li>
-            <button id="mostraDiv" onclick="mostraDiv()">
+            <button class="mostraDiv" onclick="mostraDiv()">
               <a href="#contact">Contatti</a>
             </button>
           </li>
@@ -92,20 +92,20 @@
     <!-- pages -->
     <div class="portfolio">
       <!-- homepage -->
-      <section id="home">
+      <section class="home">
 
           <!-- mobile profile photo -->
-          <img id="mobile_img" src="./assets/images/Foto-Profilo.jpg" alt="Me" width="80%">
+          <img class="mobile_img reveal-top" src="./assets/images/Foto-Profilo.jpg" alt="Me" width="80%">
           
           <!-- presentation -->
           <div class="hello">
-              <h1 id="home_h1">
+              <h1 class="home_h1 reveal-left">
                   Alfieri Luca Pio
               </h1>
-              <p id="home_p">
+              <p class="home_p reveal-left">
                 Ciao. Sono Alfieri Luca Pio.<br>Un appassionato Full-Stack Web Developer con sede a Saviano (NA), Italia. 📍
               </p>
-              <div class="socials">
+              <div class="socials reveal-left">
                 <!-- linkedin -->
                 <a aria-label="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alfieri-luca-pio">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin">
@@ -127,14 +127,14 @@
           </div>
 
           <!-- pc profile photo -->
-          <img id="pc_img" src="./assets/images/Foto-Profilo2.jpg" alt="Me" width="28.9%">
+          <img class="pc_img reveal-right" src="./assets/images/Foto-Profilo2.jpg" alt="Me" width="28.9%">
       </section>
 
       <!-- about page -->
-      <section id="about">
+      <section class="about">
         
         <!-- about me <div> -->
-        <div id="about-me">
+        <div class="about-me">
 
           <!-- coding image -->
           <img src="./assets/images/coding.jpg" alt="coding" width="40%">
@@ -162,7 +162,7 @@
       </section>
 
       <!-- contact page -->
-      <section id="contact">
+      <section class="contact">
         <div class="contact-title">
           <p>Contatti</p>
           <h3>Non essere timido! Contattami!</h3>

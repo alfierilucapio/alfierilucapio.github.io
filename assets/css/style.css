@@ -36,7 +36,7 @@ nav{
     z-index:1000;
 }
 
-#logo{
+.logo{
     display: flex;
     align-items: center;
 }
@@ -45,7 +45,7 @@ nav h3{
     padding-left: 2.5vh;
 }
 
-#menu{
+.menu{
     display: none;
 }
 
@@ -65,7 +65,7 @@ nav ul li a:hover{
     cursor:pointer;
 }
 
-#home{
+.home{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -73,7 +73,7 @@ nav ul li a:hover{
     padding-top: 3.7vh;
 }
 
-#mobile_img{
+.mobile_img{
     display: none;
 }
 
@@ -84,12 +84,12 @@ nav ul li a:hover{
     margin: auto;
 }
 
-#home_h1{
+.home_h1{
     font-size: 4vw;
     margin: 4%;
 }
 
-#home_p{
+.home_p{
     font-size: 1.5vw;
 }
 
@@ -98,11 +98,11 @@ nav ul li a:hover{
     font-size: 5vw;
 }
 
-#about{
+.about{
     width: 100%;
 }
 
-#about-me img{
+.about-me img{
     border-radius: 5vh;
 }
 
@@ -124,7 +124,7 @@ nav ul li a:hover{
     justify-content: space-evenly;
 }
 
-#about-me{
+.about-me{
     display: flex;
     justify-items: center;
     padding: 3.5vw;
@@ -151,7 +151,7 @@ nav ul li a:hover{
     color: #767676;
 }
 
-#contact{
+.contact{
     width: 100%;
     padding: 3.5vw;
     padding-top: 20vh;
@@ -243,7 +243,7 @@ footer h3 {
         width: 7.5vw;
     }
 
-    #menu{
+    .menu{
         display: block;
     }
 
@@ -260,11 +260,11 @@ footer h3 {
         background-color: white;
     }
     
-    #mostraDiv span{
+    .mostraDiv span{
         font-size: 10vw;
     }
 
-    #hidden {
+    .hidden {
         display: none;
     }
     
@@ -280,7 +280,7 @@ footer h3 {
         z-index:1000;
     }
     
-    #close{
+    .close{
         width: 100%;
         display: flex;
         justify-content: end;
@@ -293,15 +293,15 @@ footer h3 {
         transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a left e opacity */
     }
     
-    #menuTendina{
+    .menuTendina{
         height:100vh;
     }
 
-    #menuTendina ul li button{
+    .menuTendina ul li button{
         font-size: 10vw;
     }
 
-    #menuTendina ul{
+    .menuTendina ul{
         color:black;
         display: flex;
         text-align: center;
@@ -311,7 +311,7 @@ footer h3 {
         width: 100%;
     }
 
-    #menuTendina ul li{
+    .menuTendina ul li{
         display: block;
     }
 
@@ -320,7 +320,7 @@ footer h3 {
         cursor:pointer;
     }
 
-    #home{
+    .home{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -329,20 +329,20 @@ footer h3 {
         padding-inline: 4vw;
     }
 
-    #home_h1{
+    .home_h1{
         font-size: 11vw;
         margin: 4%;
     }
     
-    #home_p{
+    .home_p{
         font-size: 7vw;
     }
 
-    #mobile_img{
+    .mobile_img{
         display: block;
     }
 
-    #pc_img{
+    .pc_img{
         display: none;
     }
 
@@ -354,13 +354,13 @@ footer h3 {
         padding-inline: 4vw;
     }
 
-    #about-me{
+    .about-me{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    #about-me img{
+    .about-me img{
         width: 100%;
     }
 
@@ -430,7 +430,7 @@ footer h3 {
         font-size: 4.5vw;
     }
 
-    #contact{
+    .contact{
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
