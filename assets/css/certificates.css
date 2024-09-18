@@ -5,7 +5,7 @@
 
 .certificate-grid{
     display:grid;
-    grid-template-columns:2fr; /* Crea un'unica colonna nella pagina*/
+    grid-template-columns:2fr; /* Crea due colonne nella pagina*/
     width:100%;
     justify-items: center;
     gap:30px;
