@@ -24,6 +24,7 @@
 }
 
 .certificate-card-image{
+    align-items: center;
     max-height: 50vh;
 }
 
