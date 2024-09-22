@@ -2,7 +2,7 @@ ScrollReveal({distance:'100px',delay:200,duration:'1300',easing:'cubic-bezier(.2
 
 ScrollReveal().reveal('.reveal-zoom',{scale:0.5, reset:'true'});
 
-ScrollReveal().reveal('.reveal-opacity',{opacity:'0', reset:'true'});
+ScrollReveal().reveal('.reveal-opacity',{opacity:'0.5', reset:'true'});
 
 ScrollReveal().reveal('.reveal-left',{origin:'left', reset:'true'});
 ScrollReveal().reveal('.reveal-right',{origin:'right', reset:'true'});
