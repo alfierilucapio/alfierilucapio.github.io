@@ -1,6 +1,6 @@
 ScrollReveal({distance:'100px',delay:200,duration:'1300',easing:'cubic-bezier(.215, .61, .355, 1)',interval:'100'});
 
-ScrollReveal().reveal('.reveal-zoom',{distance:'0', interval:'200', scale:0.5, reset:'true'});
+ScrollReveal().reveal('.reveal-zoom',{distance:'0', interval:'150', scale:0.5, reset:'true'});
 
 ScrollReveal().reveal('.reveal-opacity',{origin:'right' , distance:'0' , opacity:'1', reset:'true'});
 
