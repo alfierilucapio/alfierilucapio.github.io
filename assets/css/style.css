@@ -340,7 +340,7 @@ footer h3 {
 
     .mobile_img{
         display: block;
-        border-radius: 5vh;
+        border-radius: 50%;
     }
 
     .pc_img{
