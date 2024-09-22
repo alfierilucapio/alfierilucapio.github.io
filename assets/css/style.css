@@ -65,7 +65,7 @@ nav ul li a:hover{
     cursor:pointer;
 }
 
-.home{
+#home{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +98,7 @@ nav ul li a:hover{
     font-size: 5vw;
 }
 
-.about{
+#about{
     width: 100%;
 }
 
@@ -151,7 +151,7 @@ nav ul li a:hover{
     color: #767676;
 }
 
-.contact{
+#contact{
     width: 100%;
     padding: 3.5vw;
     padding-top: 20vh;
@@ -320,7 +320,7 @@ footer h3 {
         cursor:pointer;
     }
 
-    .home{
+    #home{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -430,7 +430,7 @@ footer h3 {
         font-size: 4.5vw;
     }
 
-    .contact{
+    #contact{
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
