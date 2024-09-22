@@ -38,10 +38,8 @@ a{
     z-index: 9999;
 }
 
-#schermata_caricamento > video{
-    display: block;
-    margin: 0 auto;
-    width: 17%;
+#schermata_caricamento video{
+    width:100vw;
 }
 
 nav{
