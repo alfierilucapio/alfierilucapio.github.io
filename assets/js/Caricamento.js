@@ -3,7 +3,7 @@ let isVideoEnded = false;
 
 function hideLoader() {
     if (isPageLoaded && isVideoEnded) {
-        document.getElementById('loader').style.display = 'none';
+        document.getElementById('schermata_caricamento').style.display = 'none';
     }
 }
 
@@ -12,7 +12,7 @@ window.addEventListener('load', function() {
     hideLoader();
 });
 
-document.getElementById('loadingVideo').addEventListener('ended', function() {
+document.getElementById('video_caricamento').addEventListener('ended', function() {
     isVideoEnded = true;
     hideLoader();
 });
