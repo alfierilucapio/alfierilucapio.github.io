@@ -1,4 +1,4 @@
-ScrollReveal({distance:'100px',delay:250,duration:'1500',easing:'cubic-bezier(.215, .61, .355, 1)'});
+ScrollReveal({distance:'100px',delay:200,duration:'1300',easing:'cubic-bezier(.215, .61, .355, 1)'});
 
 ScrollReveal().reveal('.reveal-zoom',{scale:1.2, reset:'true'})
 
