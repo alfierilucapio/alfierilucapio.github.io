@@ -287,9 +287,17 @@ footer h3 {
     .menu{
         display: block;
     }
+    
+    .menuTendina{
+        display: block;
+    }
+    
+    .close{
+        display: block;
+    }
 
     nav li{
-        display: none;
+        display: block;
     }
 
     nav h3{
