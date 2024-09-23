@@ -162,6 +162,7 @@ nav ul li a:hover{
 .text-side{
     padding-inline: 5vw;
     margin: auto;
+    text-align: center;
 }
 
 .text-side h3{
