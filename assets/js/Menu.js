@@ -5,9 +5,11 @@ let isOpen = false;
 function mostraDiv() {
     let isCountEven = count % 2 === 0;
     let div = document.getElementById('mioDiv');
+    let portfolio = document.getElementById('portfolio');
 
     if (isCountEven) {
         div.style.display = 'block';
+        portfolio.style.display = 'none';
     }
 
     div.classList.remove("animazione");
@@ -27,6 +29,7 @@ function mostraDiv() {
         div.style.pointerEvents = "none";
         setTimeout(() => {
             div.style.display = 'none';
+            portfolio.style.display = 'block';
         }, 500); // Imposta un timeout per nascondere il div dopo l'animazione
         hidden = true;
     }
