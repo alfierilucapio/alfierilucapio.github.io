@@ -296,6 +296,10 @@ footer h3 {
         display: block;
     }
 
+    nav li{
+        display: none;
+    }
+
     nav h3{
         font-size: 5vw;
     }
