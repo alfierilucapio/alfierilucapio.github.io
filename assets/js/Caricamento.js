@@ -17,7 +17,7 @@ if(videoEnded&&pageLoaded==true){
 } */
 
 // Durata della GIF in millisecondi (esempio: 5 secondi)
-const gifDuration = 2500;
+const gifDuration = 2900;
 let pageLoaded = false;
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -30,7 +30,7 @@ function onGifEnd() {
         const div = document.getElementById('schermata_caricamento');
         div.style.display = 'none'; // Nascondi il div
     }else{
-        gifDuration = gifDuration + 2500;
+        gifDuration = gifDuration + 2900;
     }
 }
 
