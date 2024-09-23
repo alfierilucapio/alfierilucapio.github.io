@@ -4,6 +4,7 @@ let isOpen = false;
 
 function mostraDiv() {
     let isCountEven = count % 2 === 0;
+    
     let div = document.getElementById('mioDiv');
     let portfolio = document.getElementById('portfolio');
 
