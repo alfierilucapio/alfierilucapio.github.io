@@ -386,18 +386,8 @@ footer h3 {
         padding-inline: 4vw;
     }
 
-    .about-me{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .about-me img{
         width: 100%;
-    }
-
-    .text-side{
-        text-align: center;
     }
 
     .text-side h3{
@@ -408,6 +398,10 @@ footer h3 {
 
     .text-side h4{
         font-size: 7vw;
+    }
+
+    .text-side p{
+        font-size: 5.5vw;
     }
 
     .skills{
