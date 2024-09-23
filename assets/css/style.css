@@ -91,7 +91,7 @@ nav ul li a:hover{
 }
 
 #home{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     background-color:#4979c3;
@@ -124,7 +124,7 @@ nav ul li a:hover{
 }
 
 #about{
-    width: 100%;
+    width: 90%;
 }
 
 .about-me img{
@@ -183,7 +183,7 @@ nav ul li a:hover{
 }
 
 #contact{
-    width: 100%;
+    width: 90%;
     padding: 3.5vw;
     padding-top: 20vh;
     padding-bottom: 20vh;
@@ -236,7 +236,7 @@ nav ul li a:hover{
 footer {
     background-color: #2d2e32;
     padding: 1.5vw 0;
-    width: 100%;
+    width: 90%;
 }
 
 .footerc__socials a {
