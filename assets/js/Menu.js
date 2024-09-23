@@ -4,13 +4,10 @@ let isOpen = false;
 
 function mostraDiv() {
     let isCountEven = count % 2 === 0;
-    
     let div = document.getElementById('mioDiv');
-    let portfolio = document.getElementById('portfolio');
 
     if (isCountEven) {
         div.style.display = 'block';
-        portfolio.style.display = 'none';
     }
 
     div.classList.remove("animazione");
@@ -29,7 +26,6 @@ function mostraDiv() {
         div.style.opacity = "0";
         div.style.pointerEvents = "none";
         
-        portfolio.style.display = 'block';
         setTimeout(() => {
             div.style.display = 'none';
         }, 500); // Imposta un timeout per nascondere il div dopo l'animazione
