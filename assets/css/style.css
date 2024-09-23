@@ -128,7 +128,7 @@ nav ul li a:hover{
 }
 
 .about-me img{
-    height:max-content;
+    height: max-content;
     border-radius: 5vh;
     width: 70%;
 }
@@ -387,6 +387,7 @@ footer h3 {
     }
 
     .about-me img{
+        height: max-content;
         width: 100%;
     }
 
