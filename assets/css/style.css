@@ -78,6 +78,10 @@ nav h3{
     display:none;
 }
 
+.close{
+    display:none;
+}
+
 ul{
     list-style-type: none;
     display: flex;
