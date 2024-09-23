@@ -71,7 +71,6 @@ nav h3{
 }
 
 .menu{
-    display: hidden;
     display: none;
 }
 
@@ -129,7 +128,7 @@ nav ul li a:hover{
 }
 
 .about-me img{
-    height: max-content;
+    height: auto;
     border-radius: 5vh;
     width: 70%;
 }
