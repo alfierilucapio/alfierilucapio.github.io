@@ -42,6 +42,11 @@ a{
     align-items: center;
 }
 
+#video_caricamento{
+    max-width: 50%;
+    max-height: 50%;
+}
+
 .fade-out {
     opacity: 1;
     transition: opacity 0.5s ease-out;
