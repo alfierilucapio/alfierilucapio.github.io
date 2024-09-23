@@ -387,7 +387,7 @@ footer h3 {
     }
 
     .about-me img{
-        height: max-content;
+        height: auto;
         width: 100%;
     }
 
