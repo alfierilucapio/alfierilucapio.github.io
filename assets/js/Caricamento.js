@@ -28,7 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
 function onGifEnd() {
     if(pageLoaded){
         const div = document.getElementById('schermata_caricamento');
-        div.style.display = 'none'; // Nascondi il div
+        div.classList.add('hidden');
+        setTimeout(() => {
+            div.style.display = 'none';
+        }, 500); // Tempo di transizione in millisecondi
     }else{
         gifDuration = gifDuration + 2900;
     }

@@ -42,6 +42,15 @@ a{
     align-items: center;
 }
 
+.fade-out {
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.fade-out.hidden {
+    opacity: 0;
+}
+
 nav{
     max-width: 100vw;
     display: flex;
