@@ -18,12 +18,20 @@ if(videoEnded&&pageLoaded==true){
 
 // Durata della GIF in millisecondi (esempio: 5 secondi)
 const gifDuration = 2500;
+let pageLoaded = false;
+
+document.addEventListener("DOMContentLoaded", () => {
+    pageLoaded=true;
+});
 
 // Funzione da eseguire al termine della GIF
 function onGifEnd() {
-    const div = document.getElementById('schermata_caricamento');
-    div.style.display = 'none'; // Nascondi il div
-    console.log("La GIF ha terminato l'esecuzione e il div è stato nascosto.");
+    if(pageLoaded){
+        const div = document.getElementById('schermata_caricamento');
+        div.style.display = 'none'; // Nascondi il div
+    }else{
+        gifDuration = gifDuration + 2500;
+    }
 }
 
 // Esegui la funzione al termine della durata della GIF
