@@ -74,6 +74,10 @@ nav h3{
     display: none;
 }
 
+.menuTendina{
+    display:none;
+}
+
 ul{
     list-style-type: none;
     display: flex;
