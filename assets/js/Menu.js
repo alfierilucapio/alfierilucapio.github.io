@@ -28,9 +28,10 @@ function mostraDiv() {
         div.style.left = "-100%";
         div.style.opacity = "0";
         div.style.pointerEvents = "none";
+        
+        portfolio.style.display = 'block';
         setTimeout(() => {
             div.style.display = 'none';
-            portfolio.style.display = 'block';
         }, 500); // Imposta un timeout per nascondere il div dopo l'animazione
         hidden = true;
     }
