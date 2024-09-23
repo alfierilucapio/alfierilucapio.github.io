@@ -364,9 +364,10 @@ footer h3 {
         color:black;
         display: flex;
         text-align: center;
+        vertical-align: center;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 50vh;
+        height: 80vh;
         width: 100%;
     }
 
