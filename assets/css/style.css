@@ -37,11 +37,9 @@ a{
     top: 0;
     background-color: white;
     z-index: 9999;
-}
-
-#schermata_caricamento video{
-    width:100vw;
-    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
