@@ -128,7 +128,9 @@ nav ul li a:hover{
 }
 
 .about-me img{
+    height:max-content;
     border-radius: 5vh;
+    width: 70%;
 }
 
 .skills{
@@ -151,7 +153,9 @@ nav ul li a:hover{
 
 .about-me{
     display: flex;
+    flex-wrap: wrap;
     justify-items: center;
+    justify-content: center;
     padding: 3.5vw;
 }
 
