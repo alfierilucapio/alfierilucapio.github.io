@@ -9,8 +9,8 @@
     <meta charset="UTF-8">
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/certificates.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/certificates.css">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,11 @@
 
   </head>
   <body>
+
+    <!-- caricamento -->
+    <div id="schermata_caricamento" class="fade-out">
+      <img id="video_caricamento" src="../../assets/images/Lpa_caricamento.gif" alt="caricamento">
+    </div>
 
     <!-- navbar -->
     <nav>
@@ -225,7 +230,14 @@
     <!-- javascript -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="/assets/js/ScrollReveal.js"></script>
+
+    <!-- menu mobile -->
     <script src="/assets/js/Menu.js"></script>
+
+    <!-- caricamento -->
+    <script src="/assets/js/Caricamento.js"></script>
+
+    <script>document.body.style.overflowX = 'hidden';</script>
 
   </body>
 </html>
