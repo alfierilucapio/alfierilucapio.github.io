@@ -123,6 +123,7 @@ nav ul li a:hover{
 }
 
 .home_p{
+    padding-inline:10vw;
     font-size: 1.5vw;
 }
 
@@ -375,6 +376,7 @@ footer h3 {
     }
     
     .home_p{
+        padding-inline: 5vw;
         font-size: 6vw;
     }
 
