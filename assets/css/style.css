@@ -71,6 +71,7 @@ nav h3{
 }
 
 .menu{
+    display: hidden;
     display: none;
 }
 
@@ -280,7 +281,6 @@ footer h3 {
 
     nav li{
         display: none;
-        display: hidden;
     }
 
     nav h3{
