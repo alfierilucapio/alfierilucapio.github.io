@@ -329,6 +329,7 @@ footer h3 {
 
     nav h3{
         font-size: 5vw;
+        padding-left: 0;
     }
 
     button{
