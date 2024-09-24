@@ -22,7 +22,7 @@ function mostraDiv() {
         
         setTimeout(() => {
             mainPage.style.display = 'none';
-        }, 500);
+        }, 750);
     }
 
     div.classList.remove("animazione");
