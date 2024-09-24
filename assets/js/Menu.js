@@ -4,8 +4,12 @@ let isOpen = false;
 const navMenu = document.querySelector("#navMenu");
 
 navMenu.addEventListener("click", ()=>{
-    navMenu.classList.toggle("active");
+    animazioneMenu();
 });
+
+function animazioneMenu(){
+    navMenu.classList.toggle("active");
+}
 
 function mostraDiv() {
     let isCountEven = count % 2 === 0;
@@ -27,7 +31,6 @@ function mostraDiv() {
     if (isOpen) {
         div.style.top = "0";
         div.style.pointerEvents = "all";
-        hidden = false;
     } else {
         div.style.top = "-100%";
         div.style.pointerEvents = "none";
@@ -36,7 +39,6 @@ function mostraDiv() {
         setTimeout(() => {
             div.style.display = 'none';
         }, 500); // Imposta un timeout per nascondere il div dopo l'animazione
-        hidden = true;
     }
 
     count++;

@@ -339,10 +339,6 @@ footer h3 {
     .mostraDiv span{
         font-size: 10vw;
     }
-
-    #hidden {
-        display: none;
-    }
     
     #mioDiv {
         width: 100%;
