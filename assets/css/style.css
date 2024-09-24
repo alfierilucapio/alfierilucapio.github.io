@@ -132,6 +132,7 @@ li{
 nav ul li a:hover{
     color: #147efb;
     cursor:pointer;
+    transition: color 0.3s ease;
 }
 
 #home{
