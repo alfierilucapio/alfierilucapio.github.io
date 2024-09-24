@@ -19,7 +19,10 @@ function mostraDiv() {
 
     if (isCountEven) {
         div.style.display = 'block';
-        mainPage.style.display = 'none';
+        
+        setTimeout(() => {
+            mainPage.style.display = 'none';
+        }, 500);
     }
 
     div.classList.remove("animazione");
@@ -35,8 +38,8 @@ function mostraDiv() {
         div.style.top = "-100%";
         div.style.pointerEvents = "none";
         
+        mainPage.style.display = 'block';
         setTimeout(() => {
-            mainPage.style.display = 'block';
             div.style.display = 'none';
         }, 500); // Imposta un timeout per nascondere il div dopo l'animazione
     }
