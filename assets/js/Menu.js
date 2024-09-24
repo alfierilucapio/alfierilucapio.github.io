@@ -5,13 +5,11 @@ let isOpen = false;
 function mostraDiv() {
     let isCountEven = count % 2 === 0;
     
-    let navbar = document.getElementById('navbar');
     let portfolio = document.getElementById('portfolio');
     let div = document.getElementById('mioDiv');
 
     if (isCountEven) {
         div.style.display = 'block';
-        navbar.style.display = 'none';
         portfolio.style.display = 'none';
     }
 
@@ -31,7 +29,6 @@ function mostraDiv() {
         div.style.opacity = "0";
         div.style.pointerEvents = "none";
         
-        navbar.style.display = 'block';
         portfolio.style.display = 'block';
         setTimeout(() => {
             div.style.display = 'none';
