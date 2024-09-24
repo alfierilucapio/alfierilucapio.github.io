@@ -21,12 +21,10 @@ function mostraDiv() {
 
     if (isOpen) {
         div.style.top = "0";
-        div.style.opacity = "1";
         div.style.pointerEvents = "all";
         hidden = false;
     } else {
         div.style.top = "-100%";
-        div.style.opacity = "0";
         div.style.pointerEvents = "none";
         
         portfolio.style.display = 'block';
