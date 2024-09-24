@@ -1,6 +1,11 @@
 let hidden = false;
 let count = 0;
 let isOpen = false;
+const navMenu = document.querySelector("#navMenu");
+
+navMenu.addEventListener("click", ()=>{
+    navMenu.classList.toggle("active");
+});
 
 function mostraDiv() {
     let isCountEven = count % 2 === 0;
