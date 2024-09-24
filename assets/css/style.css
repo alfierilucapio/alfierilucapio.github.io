@@ -395,9 +395,10 @@ footer h3 {
         vertical-align: center;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-top:35vh;
+        padding-top:20vh;
         height: 80vh;
         width: 100%;
+        top:-50px;
     }
 
     .menuTendina ul li{
