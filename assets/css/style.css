@@ -333,10 +333,16 @@ footer h3 {
         background-color: white;
         position: fixed; /* Fissa il div nella finestra del browser */
         top: 0;
-        left: -100%; /* Inizialmente il div è fuori dalla vista a sinistra */
+        right: -100%; /* Inizialmente il div è fuori dalla vista a destra */
         opacity: 0; /* Assicura che il div sia inizialmente invisibile */
         pointer-events: none;
-        z-index:1000;
+        z-index: 1000;
+    }
+
+    #mioDiv.animazione {
+        right: 0; /* Cambia da right: -100% a right: 0 per far apparire il div */
+        opacity: 1;
+        transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a right e opacity */
     }
     
     .close{
@@ -344,12 +350,6 @@ footer h3 {
         display: flex;
         justify-content: end;
         padding: 2vw;
-    }
-    
-    #mioDiv.animazione {
-        left: 0;
-        opacity: 1;
-        transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a left e opacity */
     }
     
     .menuTendina{
