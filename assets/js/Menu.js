@@ -20,12 +20,12 @@ function mostraDiv() {
     isOpen = !isOpen;
 
     if (isOpen) {
-        div.style.left = "0";
+        div.style.right = "0";
         div.style.opacity = "1";
         div.style.pointerEvents = "all";
         hidden = false;
     } else {
-        div.style.left = "-100%";
+        div.style.right = "-100%";
         div.style.opacity = "0";
         div.style.pointerEvents = "none";
         
