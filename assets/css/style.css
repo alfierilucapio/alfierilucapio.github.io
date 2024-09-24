@@ -351,7 +351,7 @@ footer h3 {
     }
 
     #mioDiv.animazione {
-        top: 0; /* Cambia da too: -100% a top: 0 per far apparire il div */
+        top: 0; /* Cambia da top -100% a top: 0 per far apparire il div */
         transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a top e opacity */
     }
     
