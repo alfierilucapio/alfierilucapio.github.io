@@ -41,7 +41,7 @@ function mostraDiv() {
         mainPage.style.display = 'block';
         setTimeout(() => {
             div.style.display = 'none';
-        }, 500); // Imposta un timeout per nascondere il div dopo l'animazione
+        }, 750); // Imposta un timeout per nascondere il div dopo l'animazione
     }
 
     count++;
