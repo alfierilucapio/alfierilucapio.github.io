@@ -14,12 +14,12 @@ function animazioneMenu(){
 function mostraDiv() {
     let isCountEven = count % 2 === 0;
     
-    let portfolio = document.getElementById('portfolio');
+    let mainPage = document.getElementById('mainPage');
     let div = document.getElementById('mioDiv');
 
     if (isCountEven) {
         div.style.display = 'block';
-        portfolio.style.display = 'none';
+        mainPage.style.display = 'none';
     }
 
     div.classList.remove("animazione");
@@ -35,7 +35,7 @@ function mostraDiv() {
         div.style.top = "-100%";
         div.style.pointerEvents = "none";
         
-        portfolio.style.display = 'block';
+        mainPage.style.display = 'block';
         setTimeout(() => {
             div.style.display = 'none';
         }, 500); // Imposta un timeout per nascondere il div dopo l'animazione
