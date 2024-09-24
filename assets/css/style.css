@@ -332,17 +332,16 @@ footer h3 {
         height: 100%;
         background-color: white;
         position: fixed; /* Fissa il div nella finestra del browser */
-        top: 0;
-        right: -100%; /* Inizialmente il div è fuori dalla vista a destra */
+        top: -100%; /* Inizialmente il div è fuori dalla vista in alto */
         opacity: 0; /* Assicura che il div sia inizialmente invisibile */
         pointer-events: none;
         z-index: 1000;
     }
 
     #mioDiv.animazione {
-        right: 0; /* Cambia da right: -100% a right: 0 per far apparire il div */
+        top: 0; /* Cambia da too: -100% a top: 0 per far apparire il div */
         opacity: 1;
-        transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a right e opacity */
+        transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a top e opacity */
     }
     
     .close{
