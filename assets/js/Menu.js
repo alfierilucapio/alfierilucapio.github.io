@@ -21,7 +21,7 @@ function mostraDiv() {
         div.style.display = 'block';
         
         setTimeout(() => {
-            mainPage.style.display = 'none';
+            mainPage.style.visibility = 'hidden';
         }, 750);
     }
 
@@ -38,7 +38,7 @@ function mostraDiv() {
         div.style.top = "-100%";
         div.style.pointerEvents = "none";
         
-        mainPage.style.display = 'block';
+        mainPage.style.visibility = 'visible';
         setTimeout(() => {
             div.style.display = 'none';
         }, 750); // Imposta un timeout per nascondere il div dopo l'animazione
