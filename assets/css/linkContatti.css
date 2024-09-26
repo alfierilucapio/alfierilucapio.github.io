@@ -4,6 +4,7 @@
     box-sizing: border-box;
     max-width: 100vw;
     font-family: 'Poppins', sans-serif;
+    color:white;
   }
 
 .mobileElement {
@@ -14,6 +15,9 @@
 }
 
 body {
+    height:100vh;
+    width:100vw;
+    max-height:100vh;
     max-width: 100vw; /* Imposta la larghezza massima al 100% della larghezza della viewport */
     margin: 0 auto; /* Centra il contenuto */
     overflow-x: hidden; /* Evita lo scroll orizzontale */
@@ -24,7 +28,6 @@ html {
 }
 
 a{
-    color:black;
     text-decoration:none;
 }
 
@@ -46,6 +49,30 @@ a{
     max-height: 50%;
 }
 
+#sfondo_schermata{
+    position: fixed;
+    inset: 0px;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Colore di sfondo semi-trasparente */
+    backdrop-filter: blur(10px); /* Applica una sfocatura di 10 pixel */
+    -webkit-backdrop-filter: blur(50px);
+}
+
+#immagine_sfondo{
+    width:100vw;
+    position: fixed;
+    inset: 0px;
+    z-index: -2;
+    scale:2.5;
+    backdrop-filter: blur(100px);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
 .fade-out {
     opacity: 1;
     transition: opacity 0.5s ease-out;
@@ -64,19 +91,14 @@ nav{
     align-items: center;
     position: fixed;
     padding: 4.3vh;
-    font-size: 1.5vw;
+    font-size: 12px;
     font-family: 'Poppins', bold;
-    background-color: white;
     z-index:1000;
 }
 
 .logo{
     display: flex;
     align-items: center;
-}
-
-nav h3{
-    padding-left: 2.5vh;
 }
 
 #navMenu.active {
@@ -101,7 +123,7 @@ nav h3{
     width: 28px;
     height: 2px;
     border-radius: 9999px;
-    background-color:#147efb;
+    background-color:#ffffff;
 }
 #navMenu > span:not(:last-child) {
     margin-bottom: 7px;
@@ -109,6 +131,11 @@ nav h3{
 #navMenu, #navMenu > span {
     transition: all .4s ease-in-out;
 }
+
+#navbarContatti{
+    background-color:rgb(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
 
 ul{
     list-style-type: none;
@@ -127,129 +154,47 @@ nav ul li a:hover{
     transition: color 0.3s ease;
 }
 
-#home{
-    width: 100vw;
-    display: flex;
-    justify-content: space-evenly;
-    background-color:#4979c3;
-    padding-top: 15.7vh;
-}
-
-.hello{
-    text-align: center;
-    color: white;
-    width: 100%;
-    margin: auto;
-}
-
-.home_h1{
-    font-size: 4vw;
-    margin: 4%;
-}
-
-.home_p{
-    padding-inline:10vw;
-    font-size: 1.5vw;
-}
-
-.socials a{
-    color: white;
-    font-size: 5vw;
-}
-
-#about{
-    width: 100vw;
-}
-
-.about-me img{
-    height: auto;
-    border-radius: 5vh;
-    width: 70%;
-}
-
-.skills{
-    display: flex;
-    align-items: center;
-    font-size: 3.5vw;
-    padding: 4.3vh;
-    padding:3.7vw;
-}
-
-.skills_p{
-    width: 45vw;
-    border-right: 3px solid rgba(40, 40, 40, 0.85);
-}
-
-.logos{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.about-me{
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
-    justify-content: center;
-    padding: 3.5vw;
-}
-
-.text-side{
-    padding-inline: 5vw;
-    margin: auto;
-    text-align: center;
-}
-
-.text-side h3{
-    color: #147efb;
-    text-transform: uppercase;
-    font-size: 3.5vw;
-    padding-bottom: 3vh;
-    padding-top:3vh;
-}
-
-.text-side h4{
-    font-size: 2.5vw;
-    padding-bottom: 3vh;
-}
-
-.text-side p{
-    font-size: 2vw;
-    color: #767676;
+button{
+    border:none;
+    background-color:black;
 }
 
 #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     padding: 3.5vw;
     padding-top: 20vh;
     padding-bottom: 20vh;
 }
 
+.mobile_img{
+    border-radius: 50%;
+}
+
 .contact-title{
-    padding-bottom: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact-title p{
-    color: #147efb;
+.contact-title h1{
     text-transform: uppercase;
-    font-size: 1.5vw;
-    padding-bottom: 3vh;  
-}
-
-.contact-title h3{
-    font-size: 2.5vw;
-    padding-bottom: 3vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 
 .contact__icons{
-    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
 }
 
 .contact__icon-box{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .contact__info{
@@ -261,31 +206,13 @@ nav ul li a:hover{
     cursor:pointer;
 }
 
-.contact__icon-box span{
-    color: #147efb;
-}
-
-.whatsapp_icon{
-    fill:#147efb;
-}
-
 footer {
     background-color: #2d2e32;
     padding: 1.5vw 0;
     width: 100vw;
 }
 
-.footerc__socials a {
-    color: white;
-    font-size: 5vw;
-}
-
-.footerc__socials svg:hover{
-    height: 45px;
-}
-
 footer h3 {
-    color: white;
     font-size: 1.7vw;
 }
 
@@ -321,24 +248,10 @@ footer h3 {
         display: none;
     }
 
-    nav h3{
-        font-size: 5vw;
-        padding-left: 0;
-    }
-
-    button{
-        border:none;
-        background-color: white;
-    }
-    
-    .mostraDiv span{
-        font-size: 10vw;
-    }
-    
     #mioDiv {
         width: 100%;
         height: 100%;
-        background-color: white;
+        background-color: rgb(0, 0, 0);
         position: fixed; /* Fissa il div nella finestra del browser */
         top: -100%; /* Inizialmente il div è fuori dalla vista in alto */
         pointer-events: none;
@@ -350,13 +263,6 @@ footer h3 {
         transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a top e opacity */
     }
     
-    .close{
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        padding: 2vw;
-    }
-    
     .menuTendina{
         height:100%;
     }
@@ -366,7 +272,6 @@ footer h3 {
     }
 
     .menuTendina ul{
-        color:black;
         display: flex;
         text-align: center;
         vertical-align: center;
@@ -387,99 +292,6 @@ footer h3 {
         cursor:pointer;
     }
 
-    #home{
-        width: 100vw;
-        display: flex;
-        flex-wrap: wrap;
-        padding-top:25vw;
-        padding-bottom: 12vw;
-        padding-inline: 4vw;
-    }
-
-    .home_h1{
-        font-size: 11vw;
-        margin: 4%;
-    }
-    
-    .home_p{
-        padding-inline: 5vw;
-        font-size: 6vw;
-    }
-
-    .mobile_img{
-        border-radius: 50%;
-    }
-
-    .hello .socials{
-        padding-top: 10vw;
-    }
-
-    .socials a{
-        padding-inline: 4vw;
-    }
-
-    .about-me img{
-        height: auto;
-        width: 100%;
-    }
-
-    .text-side h3{
-        font-size: 6vw;
-        padding-bottom: 3vh;  
-        padding-top: 3vh;  
-    }
-
-    .text-side h4{
-        font-size: 7vw;
-    }
-
-    .text-side p{
-        font-size: 5.5vw;
-    }
-
-    .skills{
-        margin-top: 6vh;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .skills_p{
-        width: 100%;
-        text-align: center;
-        border-right: none;
-        border-bottom: 3px solid rgba(40, 40, 40, 0.85);
-        font-size: 6vw;
-    }
-
-    .logos img{
-        width: 30%;
-    }
-
-    .logos{
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 3vh;
-    }
-    
-    .logos img{
-        margin: 2vh;
-    }
-
-    .contact-title p{
-        font-size: 7vw;
-    }
-    
-    .contact-title h3{
-        font-size: 6vw;
-    }
-
-    .contact__icons{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-content: space-between;
-    }
-
     .contact__icon-box{
         margin-top: 3vh;
         margin-bottom: 3vh;
@@ -493,10 +305,6 @@ footer h3 {
         padding-inline: 6vw;
         padding-top: 10vh;
         padding-bottom: 10vh;
-    }
-
-    .footerc__socials svg:hover{
-        height: 30px;
     }
 
     footer h3 {

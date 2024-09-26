@@ -1,238 +1,279 @@
 <!DOCTYPE html>
 <html lang="it-IT">
-  <head>
-    <!-- title -->
-    <title>Certificati | Alfieri Luca Pio</title>
 
-    <!-- viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+<head>
+  <!-- title -->
+  <title>Certificati | Alfieri Luca Pio</title>
 
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/certificates.css">
+  <!-- meta tags -->
+  <meta name="description" content="Scopri i certificati posseduti da Alfieri Luca Pio">
+  <meta name="keywords"
+    content="Full-Stack Developer, Web Development, Alfieri Luca Pio, HTML, CSS, JavaScript, Java, Sql, Xml, Portfolio">
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
 
-  </head>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/certificates.css">
 
-  <body>
-    
-    <!-- caricamento -->
-    <div id="schermata_caricamento" class="fade-out">
-      <img id="video_caricamento" src="../images/Lpa_caricamento.gif" alt="Gif di caricamento">
-    </div>
-   
-    <!-- navbar -->
-    <nav id="navbar">
-      <!-- logo -->
-      <div class="logo">
-          <img src="../images/Logo.png" alt="Logo Alfieri Luca Pio" height="35vh">
-          <h3 class="pcElement">Alfieri Luca Pio</h3>
-      </div>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
-      <h3 class="mobileElement">Alfieri Luca Pio</h3>
+</head>
 
-      <!-- menu list -->
-      <ul>
-          <li>
-            <a href="../../index.html#home">Home</a>
-          </li>
-          <li>
-            <a href="../../index.html#about">Su di me</a>
-          </li>
-          <li>
-            <a href="../../index.html#contact">Contatti</a>
-          </li>
-          <li class="menu mobileElement">
-            <div id="navMenu" onclick="mostraDiv()">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </li>
-      </ul>
-    </nav>    
+<body>
 
-    <!-- mobile menu -->
-    <div id="mioDiv">
-      <div class="menuTendina mobileElement">
-        <ul>
-          <li>
-            <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
-              <a href="../../index.html#home">Home</a>
-            </button>
-          </li>
-          <li>
-            <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
-              <a href="../../index.html#about">Su di me</a>
-            </button>
-          </li>
-          <li>
-            <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
-              <a href="../../index.html#contact">Contatti</a>
-            </button>
-          </li>
-        </ul>  
-      </div>
+  <!-- caricamento -->
+  <div id="schermata_caricamento" class="fade-out">
+    <img id="video_caricamento" src="../images/Lpa_caricamento.gif" alt="Gif di caricamento">
+  </div>
+
+  <!-- navbar -->
+  <nav id="navbar">
+    <!-- logo -->
+    <div class="logo">
+      <img src="../images/Logo.png" alt="Logo Alfieri Luca Pio" height="35vh">
+      <h3 class="pcElement">Alfieri Luca Pio</h3>
     </div>
 
-    <section id="mainPage">
-      <ul class="certificate-grid">
+    <h3 class="mobileElement">Alfieri Luca Pio</h3>
 
-        <li class="certificate-card reveal-left">
-          <div class="certificate-card-image">
-            <img src="../../assets/images/html5.png" alt="Logo HTML">
-          </div>
-          <div class="certificate-card-text">Corso base di HTML</div>
-          <div class="certificate-card-link">
-            <a href="../../assets/pdf/Certificazione_Lacerba_085d69.pdf" download="Certificazione_Lacerba_085d69.pdf">
-              <p>
-                Visualizza il documento 
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z"/></svg>
-              </p>
-            </a>
-          </div>
-        </li>
-
-        <li class="certificate-card reveal-right">
-          <div class="certificate-card-image">
-            <img src="../../assets/images/css.png" alt="Logo CSS">
-          </div>
-          <div class="certificate-card-text">Corso base di CSS</div>
-          <div class="certificate-card-link">
-            <a href="../../assets/pdf/Certificazione_Lacerba_1faf5a.pdf" download="Certificazione_Lacerba_1faf5a.pdf">
-              <p>
-                Visualizza il documento 
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z"/></svg>
-              </p>
-            </a>
-          </div>
-        </li>
-
-        <li class="certificate-card reveal-left">
-          <div class="certificate-card-image">
-            <img src="../../assets/images/javascript.png" alt="Logo javascript">
-          </div>
-          <div class="certificate-card-text">Introduzione a JavaScript</div>
-          <div class="certificate-card-link">
-            <a href="../../assets/pdf/Certificazione_Lacerba_c2700c.pdf" download="Certificazione_Lacerba_c2700c.pdf">
-              <p>
-                Visualizza il documento 
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z"/></svg>
-              </p>
-            </a>
-          </div>
-        </li>
-
-        <li class="certificate-card reveal-right">
-          <div class="certificate-card-image">
-            <img src="../../assets/images/bootstrap.png" alt="Logo bootstrap">
-          </div>
-          <div class="certificate-card-text">Corso tutorial di Bootstrap</div>
-          <div class="certificate-card-link">
-            <a href="../../assets/pdf/Certificazione_Lacerba_dbafcd.pdf" download="Certificazione_Lacerba_dbafcd.pdf">
-              <p>
-                Visualizza il documento 
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z"/></svg>
-              </p>
-            </a>
-          </div>
-        </li>
-
-        <li class="certificate-card reveal-left">
-          <div class="certificate-card-image">
-            <img src="../../assets/images/java.png" alt="Logo java">
-          </div>
-          <div class="certificate-card-text">Introduzione a Java</div>
-          <div class="certificate-card-link">
-            <a href="../../assets/pdf/Certificazione_Lacerba_9cf3e7.pdf" download="Certificazione_Lacerba_9cf3e7.pdf">
-              <p>
-                Visualizza il documento 
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z"/></svg>
-              </p>
-            </a>
-          </div>
-        </li>
-
-        <li class="certificate-card reveal-right">
-          <div class="certificate-card-image">
-            <img src="../../assets/images/javaCore.png" alt="Logo java core">
-          </div>
-          <div class="certificate-card-text">Java Core</div>
-          <div class="certificate-card-link">
-            <a href="../pdf/Certificazione_Lacerba_7007a2.pdf" download="Certificazione_Lacerba_7007a2.pdf">
-              <p>
-                Visualizza il documento 
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z"/></svg>
-              </p>
-            </a>
-          </div>
-        </li>
-
-        <li class="certificate-card reveal-left">
-          <div class="certificate-card-image">
-            <img src="../../assets/images/sql.png" alt="Logo sql">
-          </div>
-          <div class="certificate-card-text">SQL</div>
-          <div class="certificate-card-link">
-            <a href="../../assets/pdf/Certificazione_Lacerba_91c851.pdf" download="Certificazione_Lacerba_91c851.pdf">
-              <p>
-                Visualizza il documento 
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z"/></svg>
-              </p>
-            </a>
-          </div>
-        </li>
-
-      </ul>
-    </section>
-
-      <!-- footer -->
-    <footer>
-        <div class="container">
-            <div class="footerc">
-
-                <!-- copyright -->
-                <h3>
-                    Copyright © 2023. All rights are reserved
-                </h3>
-
-                <div class="footerc__socials">
-                    <!-- linkedin -->
-                    <a aria-label="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alfieri-luca-pio">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin">
-                            <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                            <path d="M8 11l0 5"></path>
-                            <path d="M8 8l0 .01"></path>
-                            <path d="M12 16l0 -5"></path>
-                            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                        </svg>
-                    </a>
-
-                    <!-- github -->
-                    <a aria-label="github" target="_blank" rel="noreferrer" href="https://github.com/alfierilucapio">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github">
-                            <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+    <!-- menu list -->
+    <ul>
+      <li>
+        <a href="../../index.html#home">Home</a>
+      </li>
+      <li>
+        <a href="../../index.html#about">Su di me</a>
+      </li>
+      <li>
+        <a href="../../index.html#contact">Contatti</a>
+      </li>
+      <li class="menu mobileElement">
+        <div id="navMenu" onclick="mostraDiv()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-    </footer>
+      </li>
+    </ul>
+  </nav>
 
-    <!-- javascript -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="../js/ScrollReveal.js"></script>
+  <!-- mobile menu -->
+  <div id="mioDiv">
+    <div class="menuTendina mobileElement">
+      <ul>
+        <li>
+          <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
+            <a href="../../index.html#home">Home</a>
+          </button>
+        </li>
+        <li>
+          <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
+            <a href="../../index.html#about">Su di me</a>
+          </button>
+        </li>
+        <li>
+          <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
+            <a href="../../index.html#contact">Contatti</a>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-    <!-- menu mobile -->
-    <script src="../js/Menu.js"></script>
+  <section id="mainPage">
+    <ul class="certificate-grid">
 
-    <!-- caricamento -->
-    <script src="../js/Caricamento.js"></script>
+      <li class="certificate-card reveal-left">
+        <div class="certificate-card-image">
+          <img src="../../assets/images/html5.png" alt="Logo HTML">
+        </div>
+        <div class="certificate-card-text">Corso base di HTML</div>
+        <div class="certificate-card-link">
+          <a href="../../assets/pdf/Certificazione_Lacerba_085d69.pdf" download="Certificazione_Lacerba_085d69.pdf">
+            <p>
+              Visualizza il documento
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#e8eaed">
+                <path
+                  d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z" />
+              </svg>
+            </p>
+          </a>
+        </div>
+      </li>
 
-  </body>
+      <li class="certificate-card reveal-right">
+        <div class="certificate-card-image">
+          <img src="../../assets/images/css.png" alt="Logo CSS">
+        </div>
+        <div class="certificate-card-text">Corso base di CSS</div>
+        <div class="certificate-card-link">
+          <a href="../../assets/pdf/Certificazione_Lacerba_1faf5a.pdf" download="Certificazione_Lacerba_1faf5a.pdf">
+            <p>
+              Visualizza il documento
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#e8eaed">
+                <path
+                  d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z" />
+              </svg>
+            </p>
+          </a>
+        </div>
+      </li>
+
+      <li class="certificate-card reveal-left">
+        <div class="certificate-card-image">
+          <img src="../../assets/images/javascript.png" alt="Logo javascript">
+        </div>
+        <div class="certificate-card-text">Introduzione a JavaScript</div>
+        <div class="certificate-card-link">
+          <a href="../../assets/pdf/Certificazione_Lacerba_c2700c.pdf" download="Certificazione_Lacerba_c2700c.pdf">
+            <p>
+              Visualizza il documento
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#e8eaed">
+                <path
+                  d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z" />
+              </svg>
+            </p>
+          </a>
+        </div>
+      </li>
+
+      <li class="certificate-card reveal-right">
+        <div class="certificate-card-image">
+          <img src="../../assets/images/bootstrap.png" alt="Logo bootstrap">
+        </div>
+        <div class="certificate-card-text">Corso tutorial di Bootstrap</div>
+        <div class="certificate-card-link">
+          <a href="../../assets/pdf/Certificazione_Lacerba_dbafcd.pdf" download="Certificazione_Lacerba_dbafcd.pdf">
+            <p>
+              Visualizza il documento
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#e8eaed">
+                <path
+                  d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z" />
+              </svg>
+            </p>
+          </a>
+        </div>
+      </li>
+
+      <li class="certificate-card reveal-left">
+        <div class="certificate-card-image">
+          <img src="../../assets/images/java.png" alt="Logo java">
+        </div>
+        <div class="certificate-card-text">Introduzione a Java</div>
+        <div class="certificate-card-link">
+          <a href="../../assets/pdf/Certificazione_Lacerba_9cf3e7.pdf" download="Certificazione_Lacerba_9cf3e7.pdf">
+            <p>
+              Visualizza il documento
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#e8eaed">
+                <path
+                  d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z" />
+              </svg>
+            </p>
+          </a>
+        </div>
+      </li>
+
+      <li class="certificate-card reveal-right">
+        <div class="certificate-card-image">
+          <img src="../../assets/images/javaCore.png" alt="Logo java core">
+        </div>
+        <div class="certificate-card-text">Java Core</div>
+        <div class="certificate-card-link">
+          <a href="../pdf/Certificazione_Lacerba_7007a2.pdf" download="Certificazione_Lacerba_7007a2.pdf">
+            <p>
+              Visualizza il documento
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#e8eaed">
+                <path
+                  d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z" />
+              </svg>
+            </p>
+          </a>
+        </div>
+      </li>
+
+      <li class="certificate-card reveal-left">
+        <div class="certificate-card-image">
+          <img src="../../assets/images/sql.png" alt="Logo sql">
+        </div>
+        <div class="certificate-card-text">SQL</div>
+        <div class="certificate-card-link">
+          <a href="../../assets/pdf/Certificazione_Lacerba_91c851.pdf" download="Certificazione_Lacerba_91c851.pdf">
+            <p>
+              Visualizza il documento
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#e8eaed">
+                <path
+                  d="M160-80v-80h640v80H160Zm320-160L200-600h160v-280h240v280h160L480-240Zm0-130 116-150h-76v-280h-80v280h-76l116 150Zm0-150Z" />
+              </svg>
+            </p>
+          </a>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="footerc">
+
+        <!-- copyright -->
+        <h3>
+          Copyright © 2023. All rights are reserved
+        </h3>
+
+        <div class="footerc__socials">
+          <!-- linkedin -->
+          <a aria-label="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alfieri-luca-pio">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="tabler-icon tabler-icon-brand-linkedin">
+              <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+              <path d="M8 11l0 5"></path>
+              <path d="M8 8l0 .01"></path>
+              <path d="M12 16l0 -5"></path>
+              <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+            </svg>
+          </a>
+
+          <!-- github -->
+          <a aria-label="github" target="_blank" rel="noreferrer" href="https://github.com/alfierilucapio">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="tabler-icon tabler-icon-brand-github">
+              <path
+                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- javascript -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="../js/ScrollReveal.js"></script>
+
+  <!-- menu mobile -->
+  <script src="../js/Menu.js"></script>
+
+  <!-- caricamento -->
+  <script src="../js/Caricamento.js"></script>
+
+</body>
+
 </html>
