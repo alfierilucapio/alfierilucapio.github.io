@@ -211,6 +211,11 @@ button{
     padding: 0 4vw;
 }
 
+contact__icons {
+    display:flex
+    justify-content:space-around;
+}
+
 .contact__icon-box svg{
     width:28px
 }
