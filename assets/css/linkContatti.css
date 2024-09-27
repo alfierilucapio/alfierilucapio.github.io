@@ -206,25 +206,13 @@ button{
     cursor:pointer;
 }
 
-footer {
-    background-color: #2d2e32;
-    padding: 1.5vw 0;
-    width: 100vw;
-}
-
-footer h3 {
-    font-size: 1.7vw;
-}
-
 .container {
     margin: 0 auto;
     padding: 0 4vw;
 }
 
-.footerc {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+.contact__icon-box svg{
+    width:28px
 }
 
 @media screen and (max-width: 600px){
