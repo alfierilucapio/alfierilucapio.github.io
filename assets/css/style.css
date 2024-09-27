@@ -261,7 +261,8 @@ nav ul li a:hover {
 .contact-title button {
     color: white;
     border: none;
-    border-radius: 3px;
+    padding:5px
+    border-radius: 7px;
     background-color: #147efb;
 }
 
