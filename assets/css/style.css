@@ -4,31 +4,35 @@
     box-sizing: border-box;
     max-width: 100vw;
     font-family: 'Poppins', sans-serif;
-  }
+}
 
 .mobileElement {
     display: none;
 }
+
 .pcElement {
     display: block;
 }
 
 body {
-    max-width: 100vw; /* Imposta la larghezza massima al 100% della larghezza della viewport */
-    margin: 0 auto; /* Centra il contenuto */
-    overflow-x: hidden; /* Evita lo scroll orizzontale */
+    max-width: 100vw;
+    /* Imposta la larghezza massima al 100% della larghezza della viewport */
+    margin: 0 auto;
+    /* Centra il contenuto */
+    overflow-x: hidden;
+    /* Evita lo scroll orizzontale */
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-a{
-    color:black;
-    text-decoration:none;
+a {
+    color: black;
+    text-decoration: none;
 }
 
-#schermata_caricamento{
+#schermata_caricamento {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -41,7 +45,7 @@ a{
     align-items: center;
 }
 
-#video_caricamento{
+#video_caricamento {
     max-width: 50%;
     max-height: 50%;
 }
@@ -55,7 +59,7 @@ a{
     opacity: 0;
 }
 
-nav{
+nav {
     width: 100vw;
     max-width: 100vw;
     display: flex;
@@ -67,125 +71,133 @@ nav{
     font-size: 1.5vw;
     font-family: 'Poppins', bold;
     background-color: white;
-    z-index:1000;
+    z-index: 1000;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-nav h3{
+nav h3 {
     padding-left: 2.5vh;
 }
 
 #navMenu.active {
-    transition-delay:0.8s;
+    transition-delay: 0.8s;
     transform: rotate(45deg);
 }
-#navMenu.active > span:nth-child(2){
+
+#navMenu.active>span:nth-child(2) {
     width: 0;
 }
-#navMenu.active > span:nth-child(1),#navMenu.active > span:nth-child(3){
+
+#navMenu.active>span:nth-child(1),
+#navMenu.active>span:nth-child(3) {
     transition-delay: .4s;
 }
-#navMenu.active > span:nth-child(1){
+
+#navMenu.active>span:nth-child(1) {
     transform: translateY(9px);
 }
-#navMenu.active > span:nth-child(3){
+
+#navMenu.active>span:nth-child(3) {
     transform: translateY(-9px) rotate(90deg);
 }
 
-#navMenu > span {
+#navMenu>span {
     display: block;
     width: 28px;
     height: 2px;
     border-radius: 9999px;
-    background-color:#147efb;
+    background-color: #147efb;
 }
-#navMenu > span:not(:last-child) {
+
+#navMenu>span:not(:last-child) {
     margin-bottom: 7px;
 }
-#navMenu, #navMenu > span {
+
+#navMenu,
+#navMenu>span {
     transition: all .4s ease-in-out;
 }
 
-ul{
+ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     margin-right: 2vw;
 }
 
-li{
+li {
     padding-inline: 1vw;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #147efb;
-    cursor:pointer;
+    cursor: pointer;
     transition: color 0.3s ease;
 }
 
-#home{
+#home {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-    background-color:#4979c3;
+    background-color: #4979c3;
     padding-top: 15.7vh;
 }
 
-.hello{
+.hello {
     text-align: center;
     color: white;
     width: 100%;
     margin: auto;
 }
 
-.home_h1{
+.home_h1 {
     font-size: 4vw;
     margin: 4%;
 }
 
-.home_p{
-    padding-inline:10vw;
+.home_p {
+    padding-inline: 10vw;
     font-size: 1.5vw;
 }
 
-.socials a{
+.socials a {
     color: white;
     font-size: 5vw;
 }
 
-#about{
+#about {
     width: 100vw;
 }
 
-.about-me img{
+.about-me img {
     height: auto;
     border-radius: 5vh;
     width: 70%;
 }
 
-.skills{
+.skills {
     display: flex;
     align-items: center;
     font-size: 3.5vw;
     padding: 4.3vh;
-    padding:3.7vw;
+    padding: 3.7vw;
 }
 
-.skills_p{
+.skills_p {
     width: 45vw;
     border-right: 3px solid rgba(40, 40, 40, 0.85);
 }
 
-.logos{
+.logos {
     display: flex;
     justify-content: space-evenly;
 }
 
-.about-me{
+.about-me {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
@@ -193,80 +205,89 @@ nav ul li a:hover{
     padding: 3.5vw;
 }
 
-.text-side{
+.text-side {
     padding-inline: 5vw;
     margin: auto;
     text-align: center;
 }
 
-.text-side h3{
+.text-side h3 {
     color: #147efb;
     text-transform: uppercase;
     font-size: 3.5vw;
     padding-bottom: 3vh;
-    padding-top:3vh;
+    padding-top: 3vh;
 }
 
-.text-side h4{
+.text-side h4 {
     font-size: 2.5vw;
     padding-bottom: 3vh;
 }
 
-.text-side p{
+.text-side p {
     font-size: 2vw;
     color: #767676;
 }
 
-#contact{
+#contact {
     width: 100vw;
     padding: 3.5vw;
     padding-top: 20vh;
     padding-bottom: 20vh;
 }
 
-.contact-title{
+.contact-title {
     padding-bottom: 6vh;
 }
 
-.contact-title p{
+.contact-title p {
     color: #147efb;
     text-transform: uppercase;
     font-size: 1.5vw;
-    padding-bottom: 3vh;  
+    padding-bottom: 3vh;
 }
 
-.contact-title h3{
+.contact-title h3 {
     font-size: 2.5vw;
     padding-bottom: 3vh;
 }
 
-.contact__icons{
+.contact-title a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-title button {
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+.contact__icons {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.contact__icon-box{
+.contact__icon-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.contact__info{
+.contact__info {
     padding-left: 2.5vw;
 }
 
-.contact__info a:hover,.contact__info p:hover{
+.contact__info a:hover,
+.contact__info p:hover {
     color: #147efb;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.contact__icon-box span{
+.contact__icon-box span {
     color: #147efb;
-}
-
-.whatsapp_icon{
-    fill:#147efb;
 }
 
 footer {
@@ -280,7 +301,7 @@ footer {
     font-size: 5vw;
 }
 
-.footerc__socials svg:hover{
+.footerc__socials svg:hover {
     height: 45px;
 }
 
@@ -300,150 +321,157 @@ footer h3 {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 600px){
-    
+@media screen and (max-width: 600px) {
+
     .mobileElement {
         display: block;
     }
+
     .pcElement {
         display: none;
     }
 
-    nav{
+    nav {
         padding: 1.5vh;
     }
 
-    nav ul{
+    nav ul {
         width: 7.5vw;
     }
 
-    nav li{
+    nav li {
         display: none;
     }
 
-    nav h3{
+    nav h3 {
         font-size: 5vw;
         padding-left: 0;
     }
 
-    button{
-        border:none;
+    a button {
+        color: black;
+        border: none;
         background-color: white;
     }
-    
-    .mostraDiv span{
+
+    .mostraDiv span {
         font-size: 10vw;
     }
-    
+
     #mioDiv {
         width: 100%;
         height: 100%;
         background-color: white;
-        position: fixed; /* Fissa il div nella finestra del browser */
-        top: -100%; /* Inizialmente il div è fuori dalla vista in alto */
+        position: fixed;
+        /* Fissa il div nella finestra del browser */
+        top: -100%;
+        /* Inizialmente il div è fuori dalla vista in alto */
         pointer-events: none;
         z-index: 2;
     }
 
     #mioDiv.animazione {
-        top: 0; /* Cambia da top -100% a top: 0 per far apparire il div */
-        transition: all 0.75s cubic-bezier(.215, .61, .355, 1); /* Aggiunge una transizione a top e opacity */
+        top: 0;
+        /* Cambia da top -100% a top: 0 per far apparire il div */
+        transition: all 0.75s cubic-bezier(.215, .61, .355, 1);
+        /* Aggiunge una transizione a top e opacity */
     }
-    
-    .close{
+
+    .close {
         width: 100%;
         display: flex;
         justify-content: end;
         padding: 2vw;
     }
-    
-    .menuTendina{
-        height:100%;
+
+    .menuTendina {
+        height: 100%;
     }
 
-    .menuTendina ul li button{
+    .menuTendina ul li button {
         font-size: 8vw;
     }
 
-    .menuTendina ul{
-        color:black;
+    .menuTendina ul {
+        color: black;
         display: flex;
         text-align: center;
         vertical-align: center;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-top:20vh;
+        padding-top: 20vh;
         height: 80vh;
         width: 100%;
-        top:-50px;
+        top: -50px;
     }
 
-    .menuTendina ul li{
+    .menuTendina ul li {
         display: block;
     }
 
-    li a:hover, button:hover{
+    li a:hover,
+    button:hover {
         color: #147efb;
-        cursor:pointer;
+        cursor: pointer;
     }
 
-    #home{
+    #home {
         width: 100vw;
         display: flex;
         flex-wrap: wrap;
-        padding-top:25vw;
+        padding-top: 25vw;
         padding-bottom: 12vw;
         padding-inline: 4vw;
     }
 
-    .home_h1{
+    .home_h1 {
         font-size: 11vw;
         margin: 4%;
     }
-    
-    .home_p{
+
+    .home_p {
         padding-inline: 5vw;
         font-size: 6vw;
     }
 
-    .mobile_img{
+    .mobile_img {
         border-radius: 50%;
     }
 
-    .hello .socials{
+    .hello .socials {
         padding-top: 10vw;
     }
 
-    .socials a{
+    .socials a {
         padding-inline: 4vw;
     }
 
-    .about-me img{
+    .about-me img {
         height: auto;
         width: 100%;
     }
 
-    .text-side h3{
+    .text-side h3 {
         font-size: 6vw;
-        padding-bottom: 3vh;  
-        padding-top: 3vh;  
+        padding-bottom: 3vh;
+        padding-top: 3vh;
     }
 
-    .text-side h4{
+    .text-side h4 {
         font-size: 7vw;
     }
 
-    .text-side p{
+    .text-side p {
         font-size: 5.5vw;
     }
 
-    .skills{
+    .skills {
         margin-top: 6vh;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .skills_p{
+    .skills_p {
         width: 100%;
         text-align: center;
         border-right: none;
@@ -451,51 +479,51 @@ footer h3 {
         font-size: 6vw;
     }
 
-    .logos img{
+    .logos img {
         width: 30%;
     }
 
-    .logos{
+    .logos {
         display: flex;
         flex-wrap: wrap;
         padding-top: 3vh;
     }
-    
-    .logos img{
+
+    .logos img {
         margin: 2vh;
     }
 
-    .contact-title p{
+    .contact-title p {
         font-size: 7vw;
     }
-    
-    .contact-title h3{
+
+    .contact-title h3 {
         font-size: 6vw;
     }
 
-    .contact__icons{
+    .contact__icons {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         justify-content: space-between;
     }
 
-    .contact__icon-box{
+    .contact__icon-box {
         margin-top: 3vh;
         margin-bottom: 3vh;
     }
 
-    .contact__info{
+    .contact__info {
         font-size: 4.5vw;
     }
 
-    #contact{
+    #contact {
         padding-inline: 6vw;
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
 
-    .footerc__socials svg:hover{
+    .footerc__socials svg:hover {
         height: 30px;
     }
 
