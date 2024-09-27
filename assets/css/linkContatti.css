@@ -168,6 +168,10 @@ button{
     padding-top: 10vh;
 }
 
+h1 span {
+    text-transform: lowercase;
+}
+
 .mobile_img{
     border-radius: 50%;
 }
@@ -217,7 +221,7 @@ button{
 }
 
 .contact__icon-box svg{
-    width:28px
+    width:38px
 }
 
 @media screen and (max-width: 600px){
