@@ -296,7 +296,7 @@ button{
 
     #contact{
         padding-inline: 6vw;
-        padding-top: 10vh;
+        padding-top: 15vh;
         padding-bottom: 10vh;
     }
 
@@ -306,5 +306,6 @@ button{
 
     .contact__icons {
         width: 80vw;
+        padding-top:1vh;
     }
 }
