@@ -259,6 +259,8 @@ nav ul li a:hover {
 }
 
 .contact-title button {
+    /* padding: 5px;
+    background-color: #1480fb41; */
     color: black;
     border: none;
     background-color: white;
