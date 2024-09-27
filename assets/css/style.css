@@ -259,9 +259,10 @@ nav ul li a:hover {
 }
 
 .contact-title button {
-    color: black;
+    color: white;
     border: none;
-    background-color: white;
+    border-radius: 3px;
+    background-color: #147efb;
 }
 
 .contact__icons {
