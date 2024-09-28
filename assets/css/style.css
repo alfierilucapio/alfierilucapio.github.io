@@ -270,6 +270,7 @@ nav ul li a:hover {
 }
 
 .contact-title button {
+    cursor: pointer;
     color: DeepSkyBlue;
     border: none;
     background-color: white;
@@ -502,13 +503,6 @@ footer h3 {
 
     .contact-title h3 {
         font-size: 6vw;
-    }
-
-    .contact__icons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-content: space-between;
     }
 
     .contact__icon-box {
