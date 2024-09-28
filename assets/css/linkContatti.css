@@ -107,6 +107,10 @@ nav {
     align-items: center;
 }
 
+#navMenu {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 #navMenu.active {
     transition-delay: 0.8s;
     transform: rotate(45deg);
@@ -304,8 +308,7 @@ h1 span {
         display: block;
     }
 
-    li a:hover,
-    button:hover {
+    li button:hover {
         color: #147efb;
         cursor: pointer;
     }

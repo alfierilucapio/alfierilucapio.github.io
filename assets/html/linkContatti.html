@@ -48,14 +48,14 @@
                 <a href="/index.html#about">Su di me</a>
             </li>
             <li>
-                <a href="/assets/html/certificati.html">Certificati</a>
+                <a href="certificati.html">Certificati</a>
             </li>
             <li class="menu mobileElement">
-                <div id="navMenu" onclick="mostraDiv()">
+                <button id="navMenu" onclick="mostraDiv()">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </li>
         </ul>
     </nav>
@@ -63,31 +63,25 @@
     <!-- mobile menu -->
     <div id="mioDiv">
         <div class="menuTendina mobileElement">
-            <ul>
-                <li>
-                    <a href="../../index.html#home">
-                        <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
-                            Home
-                        </button>
-                    </a>
-                </li>
-                <li>
-                    <a href="../../index.html#about">
-                        <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
-                            Su di me
-                        </button>
-                    </a>
-                </li>
-                <li>
-                    <a href="certificati.html">
-                        <button class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
-                            Attestati
-                        </button>
-                    </a>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <button href="/index.html#home" class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
+                  Home
+              </button>
+            </li>
+            <li>
+              <button href="/index.html#about" class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
+                  Su di me
+              </button>
+            </li>
+            <li>
+              <button href="certificati.html" class="mostraDiv" onclick="mostraDiv();animazioneMenu()">
+                  Attestati
+              </button>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
 
     <!-- pages -->
     <div id="mainPage">

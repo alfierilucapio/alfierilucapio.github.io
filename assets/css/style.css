@@ -79,8 +79,19 @@ nav {
     align-items: center;
 }
 
+button {
+    color: black;
+    border: none;
+    background-color: white;
+}
+
 nav h3 {
     padding-left: 2.5vh;
+}
+
+#navMenu {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #navMenu.active {
@@ -292,7 +303,6 @@ nav ul li a:hover {
 
 footer {
     background-color: #2d2e32;
-    padding: 1.5vw 0;
     width: 100vw;
 }
 
@@ -346,12 +356,6 @@ footer h3 {
     nav h3 {
         font-size: 5vw;
         padding-left: 0;
-    }
-
-    a button {
-        color: black;
-        border: none;
-        background-color: white;
     }
 
     .mostraDiv span {
@@ -409,8 +413,7 @@ footer h3 {
         display: block;
     }
 
-    li a:hover,
-    button:hover {
+    li button:hover {
         color: #147efb;
         cursor: pointer;
     }
@@ -521,6 +524,10 @@ footer h3 {
         padding-inline: 6vw;
         padding-top: 10vh;
         padding-bottom: 10vh;
+    }
+
+    footer {
+        padding: 1.5vw 0;
     }
 
     .footerc__socials svg:hover {
