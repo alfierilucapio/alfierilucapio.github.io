@@ -270,11 +270,14 @@ nav ul li a:hover {
 }
 
 .contact-title button {
-    font-size: 2.5vw;
     cursor: pointer;
     color: DeepSkyBlue;
     border: none;
     background-color: white;
+}
+
+.button-contatti {
+    font-size: 2.5vw;
 }
 
 .contact__icons {
