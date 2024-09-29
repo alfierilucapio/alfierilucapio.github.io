@@ -270,6 +270,7 @@ nav ul li a:hover {
 }
 
 .contact-title button {
+    font-size: 2.5vw;
     cursor: pointer;
     color: DeepSkyBlue;
     border: none;
