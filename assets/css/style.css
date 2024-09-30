@@ -68,7 +68,7 @@ nav {
     align-items: center;
     position: fixed;
     padding: 4.3vh;
-    font-size: 1.5vw;
+    font-size: 15px;
     font-family: 'Poppins', bold;
     background-color: white;
     z-index: 1000;
@@ -166,18 +166,22 @@ nav ul li a:hover {
 }
 
 .home_h1 {
-    font-size: 4vw;
+    font-size: 30px;
     margin: 4%;
 }
 
 .home_p {
     padding-inline: 10vw;
-    font-size: 1.5vw;
+    font-size: 20px;
+}
+
+.socials {
+    padding-top:25px;
 }
 
 .socials a {
     color: white;
-    font-size: 5vw;
+    font-size: 15px;
 }
 
 #about {
@@ -193,7 +197,7 @@ nav ul li a:hover {
 .skills {
     display: flex;
     align-items: center;
-    font-size: 3.5vw;
+    font-size: 30px;
     padding: 4.3vh;
     padding: 3.7vw;
 }
@@ -225,18 +229,18 @@ nav ul li a:hover {
 .text-side h3 {
     color: #147efb;
     text-transform: uppercase;
-    font-size: 3.5vw;
+    font-size: 30px;
     padding-bottom: 3vh;
     padding-top: 3vh;
 }
 
 .text-side h4 {
-    font-size: 2.5vw;
+    font-size: 25px;
     padding-bottom: 3vh;
 }
 
 .text-side p {
-    font-size: 2vw;
+    font-size: 20px;
     color: #767676;
 }
 
@@ -254,12 +258,12 @@ nav ul li a:hover {
 .contact-title p {
     color: #147efb;
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 30px;
     padding-bottom: 3vh;
 }
 
 .contact-title h3 {
-    font-size: 2.5vw;
+    font-size: 25px;
     padding-bottom: 3vh;
 }
 
@@ -270,14 +274,14 @@ nav ul li a:hover {
 }
 
 .contact-title button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size:25px;
     cursor: pointer;
     color: DeepSkyBlue;
     border: none;
     background-color: white;
-}
-
-.button-contatti {
-    font-size: 2.5vw;
 }
 
 .contact__icons {
@@ -308,12 +312,12 @@ nav ul li a:hover {
 
 footer {
     background-color: #2d2e32;
-    width: 100vw;
+    width: 100%;
 }
 
 .footerc__socials a {
     color: white;
-    font-size: 5vw;
+    font-size: 15px;
 }
 
 .footerc__socials svg:hover {
@@ -322,15 +326,17 @@ footer {
 
 footer h3 {
     color: white;
-    font-size: 1.7vw;
+    font-size: 15px;
 }
 
 .container {
+    width: 100vw;
     margin: 0 auto;
-    padding: 0 4vw;
+    padding: 15px 25px;
 }
 
 .footerc {
+    width:100%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -359,12 +365,12 @@ footer h3 {
     }
 
     nav h3 {
-        font-size: 5vw;
+        font-size: 20px;
         padding-left: 0;
     }
 
     .mostraDiv span {
-        font-size: 10vw;
+        font-size: 15px;
     }
 
     #mioDiv {
@@ -398,7 +404,7 @@ footer h3 {
     }
 
     .menuTendina ul li button {
-        font-size: 8vw;
+        font-size: 30px;
     }
 
     .menuTendina ul {
@@ -433,13 +439,13 @@ footer h3 {
     }
 
     .home_h1 {
-        font-size: 11vw;
+        font-size: 30px;
         margin: 4%;
     }
 
     .home_p {
         padding-inline: 5vw;
-        font-size: 6vw;
+        font-size: 25px;
     }
 
     .mobile_img {
@@ -460,17 +466,17 @@ footer h3 {
     }
 
     .text-side h3 {
-        font-size: 6vw;
+        font-size: 30px;
         padding-bottom: 3vh;
         padding-top: 3vh;
     }
 
     .text-side h4 {
-        font-size: 7vw;
+        font-size: 25px;
     }
 
     .text-side p {
-        font-size: 5.5vw;
+        font-size: 20px;
     }
 
     .skills {
@@ -484,7 +490,7 @@ footer h3 {
         text-align: center;
         border-right: none;
         border-bottom: 3px solid rgba(40, 40, 40, 0.85);
-        font-size: 6vw;
+        font-size: 25px;
     }
 
     .logos img {
@@ -502,11 +508,11 @@ footer h3 {
     }
 
     .contact-title p {
-        font-size: 7vw;
+        font-size: 30px;
     }
 
     .contact-title h3 {
-        font-size: 6vw;
+        font-size: 25px;
     }
 
     .contact__icon-box {
@@ -515,7 +521,7 @@ footer h3 {
     }
 
     .contact__info {
-        font-size: 4.5vw;
+        font-size: 20px;
     }
 
     #contact {
@@ -533,6 +539,6 @@ footer h3 {
     }
 
     footer h3 {
-        font-size: 2.7vw;
+        font-size: 10px;
     }
 }

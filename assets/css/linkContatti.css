@@ -97,7 +97,7 @@ nav {
     align-items: center;
     position: fixed;
     padding: 4.3vh;
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Poppins', bold;
     z-index: 1000;
 }
@@ -183,7 +183,7 @@ button {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    padding-top: 10vh;
+    height: 100vh;
 }
 
 h1 span {
@@ -202,6 +202,7 @@ h1 span {
 }
 
 .contact-title h1 {
+    font-size:35px;
     text-transform: uppercase;
     padding-top: 4vh;
     padding-bottom: 4vh;
@@ -218,6 +219,7 @@ h1 span {
 }
 
 .contact__info {
+    font-size: 25px;
     padding-left: 2.5vw;
 }
 
@@ -289,7 +291,7 @@ h1 span {
     }
 
     .menuTendina ul li button {
-        font-size: 8vw;
+        font-size: 30px;
     }
 
     .menuTendina ul {
@@ -313,23 +315,23 @@ h1 span {
         cursor: pointer;
     }
 
+    .contact-title h1 {
+        font-size: 30px;
+    }
+
     .contact__icon-box {
         margin-top: 3vh;
         margin-bottom: 3vh;
     }
 
     .contact__info {
-        font-size: 4.5vw;
+        font-size: 20px;
     }
 
     #contact {
         padding-inline: 6vw;
         padding-top: 12.5vh;
         padding-bottom: 10vh;
-    }
-
-    footer h3 {
-        font-size: 2.7vw;
     }
 
     .contact__icons {
