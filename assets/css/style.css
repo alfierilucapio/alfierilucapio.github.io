@@ -76,6 +76,7 @@ nav {
 
 .logo {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -390,13 +391,6 @@ footer h3 {
         /* Cambia da top -100% a top: 0 per far apparire il div */
         transition: all 0.75s cubic-bezier(.215, .61, .355, 1);
         /* Aggiunge una transizione a top e opacity */
-    }
-
-    .close {
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        padding: 2vw;
     }
 
     .menuTendina {
