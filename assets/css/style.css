@@ -122,7 +122,7 @@ nav h3 {
     width: 28px;
     height: 2px;
     border-radius: 9999px;
-    background-color: #147efb;
+    background-color: #1e3a5f;
 }
 
 #navMenu>span:not(:last-child) {
@@ -146,7 +146,7 @@ li {
 }
 
 nav ul li a:hover {
-    color: #147efb;
+    color: #1e3a5f;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -155,7 +155,7 @@ nav ul li a:hover {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-    background-color: #4979c3;
+    background-color: #1e3a5f;
     padding-top: 15.7vh;
 }
 
@@ -228,7 +228,7 @@ nav ul li a:hover {
 }
 
 .text-side h3 {
-    color: #147efb;
+    color: #1e3a5f;
     text-transform: uppercase;
     font-size: 30px;
     padding-bottom: 3vh;
@@ -257,7 +257,7 @@ nav ul li a:hover {
 }
 
 .contact-title p {
-    color: #147efb;
+    color: #1e3a5f;
     text-transform: uppercase;
     font-size: 30px;
     padding-bottom: 3vh;
@@ -303,12 +303,12 @@ nav ul li a:hover {
 
 .contact__info a:hover,
 .contact__info p:hover {
-    color: #147efb;
+    color: #007bff;
     cursor: pointer;
 }
 
 .contact__icon-box span {
-    color: #147efb;
+    color: #007bff;
 }
 
 footer {
@@ -419,7 +419,7 @@ footer h3 {
     }
 
     li button:hover {
-        color: #147efb;
+        color: #007bff;
         cursor: pointer;
     }
 
