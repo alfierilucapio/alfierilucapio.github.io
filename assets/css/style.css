@@ -155,7 +155,7 @@ nav ul li a:hover {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-    background-color: #4979c3;
+    background-color: #147efb;
     padding-top: 15.7vh;
 }
 
@@ -303,7 +303,7 @@ nav ul li a:hover {
 
 .contact__info a:hover,
 .contact__info p:hover {
-    color: #147efb;
+    color: #147efb
     cursor: pointer;
 }
 
