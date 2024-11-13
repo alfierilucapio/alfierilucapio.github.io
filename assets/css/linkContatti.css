@@ -151,7 +151,7 @@ nav {
 }
 
 #navbarContatti {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -202,7 +202,7 @@ h1 span {
 }
 
 .contact-title h1 {
-    font-size:35px;
+    font-size: 35px;
     text-transform: uppercase;
     padding-top: 4vh;
     padding-bottom: 4vh;

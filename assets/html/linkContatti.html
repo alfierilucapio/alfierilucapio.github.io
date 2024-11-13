@@ -15,6 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+
     <!-- stylesheet -->
     <link rel="stylesheet" href="/assets/css/linkContatti.css">
 
@@ -35,7 +38,7 @@
     <!-- navbar -->
     <nav id="navbarContatti">
         <!-- logo -->
-        <div class="logo">
+        <div class="logo" onclick="window.location.href='/index.html#home'">
             <img src="/assets/images/LogoBianco.png" alt="Logo Alfieri Luca Pio" width="32">
         </div>
 
@@ -63,25 +66,28 @@
     <!-- mobile menu -->
     <div id="mioDiv">
         <div class="menuTendina mobileElement">
-          <ul>
-            <li>
-              <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='/index.html#home'">
-                  Home
-              </button>
-            </li>
-            <li>
-                <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='/index.html#about'">
-                  Su di me
-              </button>
-            </li>
-            <li>
-                <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='certificati.html'">
-                  Attestati
-              </button>
-            </li>
-          </ul>
+            <ul>
+                <li>
+                    <button class="mostraDiv"
+                        onclick="mostraDiv();animazioneMenu();window.location.href='/index.html#home'">
+                        Home
+                    </button>
+                </li>
+                <li>
+                    <button class="mostraDiv"
+                        onclick="mostraDiv();animazioneMenu();window.location.href='/index.html#about'">
+                        Su di me
+                    </button>
+                </li>
+                <li>
+                    <button class="mostraDiv"
+                        onclick="mostraDiv();animazioneMenu();window.location.href='certificati.html'">
+                        Attestati
+                    </button>
+                </li>
+            </ul>
         </div>
-      </div>
+    </div>
 
     <!-- pages -->
     <div id="mainPage">

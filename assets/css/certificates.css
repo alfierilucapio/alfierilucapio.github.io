@@ -4,22 +4,23 @@ button {
     background-color: white;
 }
 
-#mainPage{
-    padding-top:17vh;
-    padding-bottom:10vh;
+#mainPage {
+    padding-top: 17vh;
+    padding-bottom: 10vh;
 }
 
-.certificate-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr; /* Crea due colonne nella pagina*/
-    width:100%;
+.certificate-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Crea due colonne nella pagina*/
+    width: 100%;
     justify-items: center;
-    row-gap:80px;
+    row-gap: 80px;
     padding-inline: 13%;
 }
 
-.certificate-card{
-    padding-bottom:20px;
+.certificate-card {
+    padding-bottom: 20px;
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -31,29 +32,30 @@ button {
     vertical-align: middle;
 }
 
-.certificate-card-image{
+.certificate-card-image {
     max-height: 100%;
     max-width: 100%;
 }
 
-.certificate-card-image img{
+.certificate-card-image img {
     padding: 40px;
     height: 100%;
     width: 100%;
 }
 
-.certificate-card p{
+.certificate-card p {
     display: flex;
     justify-content: center;
-    color:rgb(145, 225, 15);
+    color: rgb(145, 225, 15);
 }
 
-.certificate-card p svg{
-    fill:rgb(145, 225, 15);
+.certificate-card p svg {
+    fill: rgb(145, 225, 15);
 }
 
-@media screen and (max-width: 600px){
-    .certificate-grid{
-        grid-template-columns:1fr; /* Crea un'unica colonna nella pagina*/
+@media screen and (max-width: 600px) {
+    .certificate-grid {
+        grid-template-columns: 1fr;
+        /* Crea un'unica colonna nella pagina*/
     }
 }

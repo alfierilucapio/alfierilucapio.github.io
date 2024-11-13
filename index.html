@@ -15,9 +15,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
 
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico">
+
   <!-- stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
-    
+
   <!-- caricamento -->
   <script src="assets/js/Caricamento.js"></script>
 
@@ -38,7 +41,7 @@
   <!-- navbar -->
   <nav id="navbar">
     <!-- logo -->
-    <div class="logo">
+    <div class="logo" onclick="window.location.href='#home'">
       <img src="./assets/images/Logo.png" alt="Logo Alfieri Luca Pio" width="30">
       <h3 class="pcElement">Alfieri Luca Pio</h3>
     </div>
@@ -75,22 +78,24 @@
       <ul>
         <li>
           <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='#home'">
-              Home
+            Home
           </button>
         </li>
         <li>
           <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='#about'">
-              Su di me
+            Su di me
           </button>
         </li>
         <li>
-          <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='/assets/html/certificati.html'">
-              Attestati
+          <button class="mostraDiv"
+            onclick="mostraDiv();animazioneMenu();window.location.href='/assets/html/certificati.html'">
+            Attestati
           </button>
         </li>
         <li>
-          <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='/assets/html/linkContatti.html'">
-              Contatti
+          <button class="mostraDiv"
+            onclick="mostraDiv();animazioneMenu();window.location.href='/assets/html/linkContatti.html'">
+            Contatti
           </button>
         </li>
       </ul>
