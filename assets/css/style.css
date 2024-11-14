@@ -15,6 +15,7 @@
 }
 
 body {
+    background-color:#f2f0eb;
     max-width: 100vw;
     /* Imposta la larghezza massima al 100% della larghezza della viewport */
     margin: 0 auto;
@@ -68,7 +69,7 @@ nav {
     align-items: center;
     position: fixed;
     padding: 4.3vh;
-    font-size: 15px;
+    font-size: 1.5vw;
     font-family: 'Poppins', bold;
     background-color: #f2f0eb;
     z-index: 1000;
@@ -122,7 +123,7 @@ nav h3 {
     width: 28px;
     height: 2px;
     border-radius: 9999px;
-    background-color: #147efb;
+    background-color: #1e3a5f;
 }
 
 #navMenu>span:not(:last-child) {
@@ -146,7 +147,7 @@ li {
 }
 
 nav ul li a:hover {
-    color: #147efb;
+    color: #1e3a5f;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -155,7 +156,7 @@ nav ul li a:hover {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-    background-color: #147efb;
+    background-color: #1e3a5f;
     padding-top: 15.7vh;
 }
 
@@ -167,13 +168,19 @@ nav ul li a:hover {
 }
 
 .home_h1 {
-    font-size: 30px;
+    font-size: 2.5vw;
     margin: 4%;
 }
 
 .home_p {
     padding-inline: 10vw;
-    font-size: 20px;
+    font-size: 1.5vw;
+}
+
+.pc_img {
+    height: auto;
+    width: 28.9%;
+    object-fit: contain;
 }
 
 .socials {
@@ -182,7 +189,7 @@ nav ul li a:hover {
 
 .socials a {
     color: #f2f0eb;
-    font-size: 15px;
+    font-size: 1.5vw;
 }
 
 #about {
@@ -198,7 +205,7 @@ nav ul li a:hover {
 .skills {
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 2.5vw;
     padding: 4.3vh;
     padding: 3.7vw;
 }
@@ -228,20 +235,20 @@ nav ul li a:hover {
 }
 
 .text-side h3 {
-    color: #147efb;
+    color: #1e3a5f;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2.5vw;
     padding-bottom: 3vh;
     padding-top: 3vh;
 }
 
 .text-side h4 {
-    font-size: 25px;
+    font-size: 2.5vw;
     padding-bottom: 3vh;
 }
 
 .text-side p {
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #767676;
 }
 
@@ -257,14 +264,14 @@ nav ul li a:hover {
 }
 
 .contact-title p {
-    color: #147efb;
+    color: #1e3a5f;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2.5vw;
     padding-bottom: 3vh;
 }
 
 .contact-title h3 {
-    font-size: 25px;
+    font-size: 2.5vw;
     padding-bottom: 3vh;
 }
 
@@ -278,7 +285,7 @@ nav ul li a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 2.5vw;
     cursor: pointer;
     color: DeepSkyBlue;
     border: none;
@@ -303,12 +310,12 @@ nav ul li a:hover {
 
 .contact__info a:hover,
 .contact__info p:hover {
-    color: #147efb;
+    color: #1e3a5f;
     cursor: pointer;
 }
 
 .contact__icon-box span {
-    color: #147efb;
+    color: #1e3a5f;
 }
 
 footer {
@@ -318,7 +325,7 @@ footer {
 
 .footerc__socials a {
     color: #f2f0eb;
-    font-size: 15px;
+    font-size: 1.5vw;
 }
 
 .footerc__socials svg:hover {
@@ -327,7 +334,7 @@ footer {
 
 footer h3 {
     color: #f2f0eb;
-    font-size: 15px;
+    font-size: 1.5vw;
 }
 
 .container {
@@ -419,7 +426,7 @@ footer h3 {
     }
 
     li button:hover {
-        color: #147efb;
+        color: #1e3a5f;
         cursor: pointer;
     }
 
@@ -522,6 +529,10 @@ footer h3 {
         padding-inline: 6vw;
         padding-top: 10vh;
         padding-bottom: 10vh;
+    }
+
+    .contact-title button{
+        font-size: 20px;
     }
 
     .footerc__socials svg:hover {

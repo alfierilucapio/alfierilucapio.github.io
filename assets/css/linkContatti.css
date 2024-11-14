@@ -167,7 +167,7 @@ li {
 }
 
 nav ul li a:hover {
-    color: #147efb;
+    color: #1e3a5f;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -225,7 +225,7 @@ h1 span {
 
 .contact__info a:hover,
 .contact__info p:hover {
-    color: #147efb;
+    color: #1e3a5f;
     cursor: pointer;
 }
 
@@ -311,7 +311,7 @@ h1 span {
     }
 
     li button:hover {
-        color: #147efb;
+        color: #1e3a5f;
         cursor: pointer;
     }
 
