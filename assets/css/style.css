@@ -28,7 +28,7 @@ html {
 }
 
 a {
-    color: black;
+    color: #2e2e2e;
     text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ nav {
 }
 
 button {
-    color: black;
+    color: #2e2e2e;
     border: none;
     background-color: #f2f0eb;
 }
@@ -402,7 +402,7 @@ footer h3 {
     }
 
     .menuTendina ul {
-        color: black;
+        color: #2e2e2e;
         display: flex;
         text-align: center;
         vertical-align: center;
