@@ -506,6 +506,9 @@ footer h3 {
 
     .logos img {
         margin: 2vh;
+        object-fit: contain;
+        height: auto;
+        width: 10%;
     }
 
     .contact-title p {
