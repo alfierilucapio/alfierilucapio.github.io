@@ -97,7 +97,7 @@ nav {
     align-items: center;
     position: fixed;
     padding: 4.3vh;
-    font-size: 15px;
+    font-size: 1.5vw;
     font-family: 'Poppins', bold;
     z-index: 1000;
 }
@@ -202,7 +202,7 @@ h1 span {
 }
 
 .contact-title h1 {
-    font-size: 35px;
+    font-size: 2.5vw;
     text-transform: uppercase;
     padding-top: 4vh;
     padding-bottom: 4vh;
@@ -219,7 +219,7 @@ h1 span {
 }
 
 .contact__info {
-    font-size: 25px;
+    font-size: 2.5vw;
     padding-left: 2.5vw;
 }
 
