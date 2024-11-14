@@ -107,6 +107,10 @@ nav {
     align-items: center;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 #navMenu {
     background-color: rgba(0, 0, 0, 0);
 }
@@ -288,6 +292,7 @@ h1 span {
 
     .menuTendina {
         height: 100%;
+        background-color: #2e2e2e;
     }
 
     .menuTendina ul li button {
@@ -297,7 +302,6 @@ h1 span {
     .menuTendina ul {
         display: flex;
         text-align: center;
-        vertical-align: center;
         flex-direction: column;
         justify-content: space-evenly;
         padding-top: 20vh;

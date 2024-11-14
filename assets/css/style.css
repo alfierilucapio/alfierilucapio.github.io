@@ -224,6 +224,13 @@ nav ul li a:hover {
     justify-content: space-evenly;
 }
 
+.logos img {
+    margin: 2vh;
+    object-fit: contain;
+    height: auto;
+    width: 10%;
+}
+
 .about-me {
     display: flex;
     flex-wrap: wrap;
@@ -498,10 +505,6 @@ footer h3 {
         font-size: 25px;
     }
 
-    .logos img {
-        width: 30%;
-    }
-
     .logos {
         display: flex;
         flex-wrap: wrap;
@@ -512,7 +515,7 @@ footer h3 {
         margin: 2vh;
         object-fit: contain;
         height: auto;
-        width: 10%;
+        width: 30%;
     }
 
     .contact-title p {
