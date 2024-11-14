@@ -147,7 +147,7 @@ li {
 }
 
 nav ul li a:hover {
-    color: #1e3a5f;
+    color: #147efb;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -249,7 +249,7 @@ nav ul li a:hover {
 
 .text-side p {
     font-size: 1.5vw;
-    color: #767676;
+    color: #444444;
 }
 
 #contact {
@@ -310,7 +310,7 @@ nav ul li a:hover {
 
 .contact__info a:hover,
 .contact__info p:hover {
-    color: #1e3a5f;
+    color: #147efb;
     cursor: pointer;
 }
 
@@ -426,7 +426,7 @@ footer h3 {
     }
 
     li button:hover {
-        color: #1e3a5f;
+        color: #147efb;
         cursor: pointer;
     }
 
