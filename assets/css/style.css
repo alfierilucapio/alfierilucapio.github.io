@@ -166,7 +166,6 @@ nav ul li a:hover {
     background-image: url('/assets/images/coding.jpg');
     background-size: cover;
     background-position: center;
-    padding-top: 7%;
 }
 
 #home::before {
@@ -498,7 +497,6 @@ footer h3 {
         width: 100vw;
         display: flex;
         flex-wrap: wrap;
-        padding-top: 25%;
     }
 
     .mobile_img{
