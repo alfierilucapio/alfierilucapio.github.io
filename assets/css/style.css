@@ -230,6 +230,10 @@ nav ul li a:hover {
     width: 5vw;
 }
 
+.scrolldown svg:hover{
+    cursor: pointer;
+}
+
 @keyframes colorChange {
     0% {
         fill: white;
