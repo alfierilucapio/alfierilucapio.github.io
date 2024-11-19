@@ -188,7 +188,7 @@ nav ul li a:hover {
 }
 
 .mobile_img {
-    height: fit-content;
+    height: auto;
     border-radius: 50%;
 }
 
