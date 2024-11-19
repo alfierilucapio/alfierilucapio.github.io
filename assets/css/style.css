@@ -437,7 +437,7 @@ footer h3 {
     }
 
     nav h3 {
-        font-size: 20px;
+        font-size: 5vw;
         padding-left: 0;
     }
 
@@ -498,19 +498,21 @@ footer h3 {
         width: 100vw;
         display: flex;
         flex-wrap: wrap;
-        padding-top: 25vw;
-        padding-bottom: 12vw;
-        padding-inline: 4vw;
+        padding-top: 10%;
+    }
+
+    .mobile_img{
+        width: 60%;
     }
 
     .home_h1 {
-        font-size: 30px;
+        font-size: 8vw;
         margin: 4%;
     }
 
     .home_p {
         padding-inline: 5vw;
-        font-size: 20px;
+        font-size: 5vw;
     }
 
     .presentation .socials {
@@ -521,23 +523,22 @@ footer h3 {
         padding-inline: 4vw;
     }
 
-    .about-me img {
-        height: auto;
-        width: 100%;
+    .scrolldown svg{
+        width: 10vw;
     }
 
     .text-side h3 {
-        font-size: 30px;
+        font-size: 8vw;
         padding-bottom: 3vh;
         padding-top: 3vh;
     }
 
     .text-side h4 {
-        font-size: 25px;
+        font-size: 6vw;
     }
 
     .text-side p {
-        font-size: 20px;
+        font-size: 5vw;
     }
 
     .skills {
@@ -551,7 +552,7 @@ footer h3 {
         text-align: center;
         border-right: none;
         border-bottom: 3px solid rgba(40, 40, 40, 0.85);
-        font-size: 25px;
+        font-size: 6vw;
     }
 
     .logos {
@@ -568,11 +569,11 @@ footer h3 {
     }
 
     .contact-title p {
-        font-size: 30px;
+        font-size: 8vw;
     }
 
     .contact-title h3 {
-        font-size: 25px;
+        font-size: 6vw;
     }
 
     .contact__icon-box {
@@ -581,7 +582,7 @@ footer h3 {
     }
 
     .contact__info {
-        font-size: 20px;
+        font-size: 5vw;
     }
 
     #contact {
@@ -591,14 +592,14 @@ footer h3 {
     }
 
     .contact-title button {
-        font-size: 20px;
+        font-size: 5vw;
     }
 
     .footerc__socials svg:hover {
-        height: 30px;
+        height: 8vw;
     }
 
     footer h3 {
-        font-size: 10px;
+        font-size: 3vw;
     }
 }
