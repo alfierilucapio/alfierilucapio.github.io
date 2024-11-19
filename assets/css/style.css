@@ -210,7 +210,7 @@ nav ul li a:hover {
 }
 
 .socials {
-    padding-top: 25px;
+    padding-top: 4vw;
 }
 
 .socials a {
@@ -498,7 +498,7 @@ footer h3 {
         width: 100vw;
         display: flex;
         flex-wrap: wrap;
-        padding-top: 10%;
+        padding-top: 15%;
     }
 
     .mobile_img{
@@ -507,16 +507,12 @@ footer h3 {
 
     .home_h1 {
         font-size: 8vw;
-        margin: 4%;
+        margin: 2%;
     }
 
     .home_p {
         padding-inline: 5vw;
-        font-size: 5vw;
-    }
-
-    .presentation .socials {
-        padding-top: 10vw;
+        font-size: 4vw;
     }
 
     .socials a {
