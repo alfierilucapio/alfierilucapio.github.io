@@ -86,13 +86,15 @@ function onGifEnd() {
 document.addEventListener("DOMContentLoaded", () => {
 
     // Funzione per aggiornare l'altezza dinamicamente
-    function adjustCarouselHeight() {
+    function adjustHeroHeight() {
         const carousel = document.querySelector('#home');
         carousel.style.height = `${window.innerHeight}px`;
     }
 
     // Inizializza l'altezza dell' hero
-    adjustCarouselHeight();
+    adjustHeroHeight();
+
+    window.addEventListener('resize', adjustHeroHeight);
 
     mostraGifCaricamento();
 });
