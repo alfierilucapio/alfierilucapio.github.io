@@ -87,14 +87,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Funzione per aggiornare l'altezza dinamicamente
     function adjustHeroHeight() {
-        const carousel = document.querySelector('#home');
-        carousel.style.height = `${window.innerHeight}px`;
+        const home = document.querySelector('#home');
+
+        home.style.height = `${window.innerHeight}px`;
+
+        // Modifica lo stile di .home::before 
+        const style = document.createElement('style');
+        style.innerHTML = `
+            .home::before {
+                height:${window.innerHeight}px;
+                } `;
+        document.head.appendChild(style);
     }
 
     // Inizializza l'altezza dell' hero
     adjustHeroHeight();
-
-    window.addEventListener('resize', adjustHeroHeight);
 
     mostraGifCaricamento();
 });
