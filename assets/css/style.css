@@ -218,7 +218,7 @@ nav ul li a:hover {
 .scrolldown {
     position: absolute;
     width: 100vw;
-    bottom: 0;
+    bottom: 1vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -521,10 +521,6 @@ footer h3 {
 
     .socials a {
         padding-inline: 4vw;
-    }
-
-    .presentation {
-        margin-bottom: 10vh;
     }
 
     .scrolldown svg {
