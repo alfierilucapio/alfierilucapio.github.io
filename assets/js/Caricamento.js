@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Modifica lo stile di .home::before 
         const style = document.createElement('style');
         style.innerHTML = `
-            .home::before {
+            #home::before {
                 height:${window.innerHeight}px;
                 } `;
         document.head.appendChild(style);
