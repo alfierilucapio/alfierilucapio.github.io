@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Funzione per aggiornare l'altezza dinamicamente
     function adjustCarouselHeight() {
-        const carousel = document.querySelector('.hero');
+        const carousel = document.querySelector('#home');
         carousel.style.height = `${window.innerHeight}px`;
     }
 
