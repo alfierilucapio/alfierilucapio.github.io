@@ -195,7 +195,6 @@ nav ul li a:hover {
     text-align: center;
     color: #f2f0eb;
     width: 100%;
-    margin-bottom: 10vh;
 }
 
 .home_h1 {
@@ -209,7 +208,7 @@ nav ul li a:hover {
 }
 
 .socials {
-    padding-top: 4vw;
+    padding-top: 2vw;
 }
 
 .socials a {
@@ -515,6 +514,10 @@ footer h3 {
     .home_p {
         padding-inline: 5vw;
         font-size: 4.4vw;
+    }
+
+    .socials {
+        padding-top: 4vw;
     }
 
     .socials a {
