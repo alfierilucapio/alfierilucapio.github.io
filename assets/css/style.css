@@ -195,7 +195,6 @@ nav ul li a:hover {
     text-align: center;
     color: #f2f0eb;
     width: 100%;
-    margin-bottom: 10vh;
 }
 
 .home_h1 {
@@ -209,7 +208,7 @@ nav ul li a:hover {
 }
 
 .socials {
-    padding-top: 4vw;
+    padding-top: 1.5vw;
 }
 
 .socials a {
@@ -230,7 +229,7 @@ nav ul li a:hover {
     width: 5vw;
 }
 
-.scrolldown svg:hover{
+.scrolldown svg:hover {
     cursor: pointer;
 }
 
@@ -503,7 +502,7 @@ footer h3 {
         flex-wrap: wrap;
     }
 
-    .mobile_img{
+    .mobile_img {
         width: 60%;
     }
 
@@ -517,11 +516,19 @@ footer h3 {
         font-size: 4.4vw;
     }
 
+    .socials {
+        padding-top: 4vw;
+    }
+
     .socials a {
         padding-inline: 4vw;
     }
 
-    .scrolldown svg{
+    .presentation {
+        margin-bottom: 10vh;
+    }
+
+    .scrolldown svg {
         width: 10vw;
     }
 
