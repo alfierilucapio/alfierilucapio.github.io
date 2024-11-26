@@ -2,16 +2,18 @@
 <html lang="it-IT">
 
 <head>
-  <!-- title -->
+  <!-- TITLE -->
   <title>Portfolio di Alfieri Luca Pio | Full-Stack Web Developer in Italia</title>
 
-  <!-- meta tags -->
+  <!-- META TAGS -->
   <meta name="description"
     content="Esplora il portfolio di Alfieri Luca Pio, Full-Stack Web Developer in Italia. Scopri progetti di alta qualità che combinano design e funzionalità per trasformare idee in soluzioni digitali innovative.">
   <meta name="keywords"
     content="Portfolio Full-Stack Developer, Alfieri Luca Pio, Sviluppo Web, HTML, CSS, JavaScript, Java, SQL, XML, Saviano Napoli.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
 
-  <!-- Open Graph Meta Tags -->
+  <!-- OPEN GRAPH META TAGS -->
   <meta property="og:title" content="Portfolio di Alfieri Luca Pio | Full-Stack Web Developer in Italia">
   <meta property="og:description"
     content="Esplora il portfolio di Alfieri Luca Pio, Full-Stack Web Developer in Italia. Progetti di alta qualità che combinano design e funzionalità.">
@@ -20,49 +22,41 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
 
-  <!-- Twitter Card Meta Tags -->
+  <!-- TWITTER CARD META TAGS -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Portfolio di Alfieri Luca Pio">
   <meta name="twitter:description"
     content="Full-Stack Web Developer in Italia. Scopri progetti innovativi e soluzioni digitali su misura.">
   <meta name="twitter:image" content="https://alfierilucapio.github.io/assets/images/Logo.png">
 
-  <!-- viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-
   <!-- FAVICON -->
   <link rel="shortcut icon" href="./assets/images/favicon.ico">
 
-  <!-- stylesheet -->
+  <!-- STYLESHEET -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- caricamento -->
-  <script src="./assets/js/Caricamento.js"></script>
-
-  <!-- fonts -->
+  <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
+  <!-- LOADING SCRIPT -->
+  <script src="./assets/js/Caricamento.js"></script>
 </head>
 
 <body>
-
   <header>
-    <!-- caricamento -->
+    <!-- LOADING -->
     <div id="schermata_caricamento" class="fade-out">
-      <img id="video_caricamento" src="./assets/images/Lpa_caricamento.gif" alt="Gif di caricamento">
+      <img id="video_caricamento" src="./assets/images/Lpa_caricamento.gif" alt="Gif di caricamento Alfieri Luca Pio">
     </div>
 
-    <!-- navbar -->
+    <!-- NAVBAR -->
     <nav id="navbar">
-      <!-- logo -->
       <div class="logo" onclick="window.location.href='#home'">
         <img src="./assets/images/Logo.png" alt="Logo Alfieri Luca Pio" width="30">
         <h3 class="pcElement">Alfieri Luca Pio</h3>
       </div>
-
       <h3 class="mobileElement">Alfieri Luca Pio</h3>
 
       <!-- menu list -->
@@ -89,7 +83,7 @@
       </ul>
     </nav>
 
-    <!-- mobile menu -->
+    <!-- MOBILE MENU -->
     <div id="mioDiv">
       <div class="menuTendina mobileElement">
         <ul>
@@ -120,28 +114,21 @@
     </div>
   </header>
 
-
-  <!-- pages -->
   <main id="mainPage">
-    <!-- homepage -->
+    <!-- HOME SECTION -->
     <section id="home">
-
       <div class="hero">
         <div class="mobile_img_div">
           <!-- mobile profile photo -->
           <img class="mobile_img reveal-top" src="./assets/images/Foto-Profilo.jpg" alt="Foto di Alfieri Luca Pio"
             width="20%">
         </div>
-
-        <!-- presentation -->
         <div class="presentation">
           <h1 class="home_h1 reveal-left">
             Alfieri Luca Pio
           </h1>
           <p class="home_p reveal-left">
-            Ciao. Sono Alfieri Luca Pio.<br>Un appassionato Full-Stack Web Developer con l'obiettivo di trasformare le
-            tue
-            idee in realtà digitali.
+            Ciao. Sono Alfieri Luca Pio.<br>Un appassionato Full-Stack Web Developer con l'obiettivo di trasformare le tue idee in realtà digitali.
           </p>
           <div class="socials reveal-left">
             <!-- linkedin -->
@@ -211,13 +198,9 @@
       </div>
     </section>
 
-    <!-- about page -->
+    <!-- ABOUT SECTION -->
     <section id="about">
-
-      <!-- about me <div> -->
       <div class="about-me">
-
-        <!-- about me text-->
         <div class="text-side">
           <h3 class="reveal-right">Su di me</h3>
           <h4 class="reveal-right">Uno sviluppatore full-stack appassionato<br>con sede a Saviano (NA), Italia. 📍</h4>
@@ -234,7 +217,7 @@
 
       <!-- skills -->
       <div class="skills">
-        <p class="skills_p reveal-left">Skills</p>
+        <h3 class="skills_p reveal-left">Skills</h3>
         <div class="logos">
           <img class="reveal-zoom" src="./assets/images/html5.png" alt="Logo HTML" width="10%">
           <img class="reveal-zoom" src="./assets/images/css.png" alt="Logo CSS" width="10%">
@@ -247,7 +230,7 @@
       </div>
     </section>
 
-    <!-- contact page -->
+    <!-- CONTACT SECTION -->
     <section id="contact">
       <div class="contact-title">
         <p class="reveal-left">Contatti</p>
@@ -257,61 +240,60 @@
         </button>
       </div>
     </section>
-
-    <!-- footer -->
-    <footer>
-      <div class="container">
-        <div class="footerc">
-
-          <!-- copyright -->
-          <img src="./assets/images/LogoBianco.png" alt="Logo LPA" width="30px">
-
-          <div class="footerc__socials">
-            <!-- linkedin -->
-            <a aria-label="linkedin" target="_blank" rel="noreferrer"
-              href="https://www.linkedin.com/in/alfieri-luca-pio">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="tabler-icon tabler-icon-brand-linkedin">
-                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                <path d="M8 11l0 5"></path>
-                <path d="M8 8l0 .01"></path>
-                <path d="M12 16l0 -5"></path>
-                <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-              </svg>
-            </a>
-
-            <!-- github -->
-            <a aria-label="github" target="_blank" rel="noreferrer" href="https://github.com/alfierilucapio">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="tabler-icon tabler-icon-brand-github">
-                <path
-                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
-                </path>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="footerCopy">
-          <h2>
-            80039, Saviano, Napoli<br>
-            Tel +39 3803442232<br>
-            alfierilucapio@gmail.com<br>
-            &copy 2024 Alfieri Luca Pio. Tutti i diritti sono riservati.
-          </h2>
-        </div>
-      </div>
-    </footer>
   </main>
 
-  <!-- javascript -->
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footerc">
+
+        <!-- copyright -->
+        <img src="./assets/images/LogoBianco.png" alt="Logo LPA" width="30px">
+
+        <div class="footerc__socials">
+          <!-- linkedin -->
+          <a aria-label="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alfieri-luca-pio">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="tabler-icon tabler-icon-brand-linkedin">
+              <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+              <path d="M8 11l0 5"></path>
+              <path d="M8 8l0 .01"></path>
+              <path d="M12 16l0 -5"></path>
+              <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+            </svg>
+          </a>
+
+          <!-- github -->
+          <a aria-label="github" target="_blank" rel="noreferrer" href="https://github.com/alfierilucapio">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="tabler-icon tabler-icon-brand-github">
+              <path
+                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footerCopy">
+        <h2>
+          80039, Saviano, Napoli<br>
+          Tel +39 3803442232<br>
+          alfierilucapio@gmail.com<br>
+          &copy 2024 Alfieri Luca Pio. Tutti i diritti sono riservati.
+        </h2>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="./assets/js/ScrollReveal.js"></script>
 
   <!-- menu mobile -->
   <script src="./assets/js/Menu.js"></script>
-
 </body>
 
 </html>
