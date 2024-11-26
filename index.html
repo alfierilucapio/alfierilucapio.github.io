@@ -3,13 +3,29 @@
 
 <head>
   <!-- title -->
-  <title>Portfolio | Alfieri Luca Pio</title>
+  <title>Portfolio di Alfieri Luca Pio | Full-Stack Web Developer in Italia</title>
 
   <!-- meta tags -->
   <meta name="description"
-    content="Scopri il portfolio di Alfieri Luca Pio, un appassionato Full-Stack Web Developer che trasforma idee in realtà digitali.">
+    content="Esplora il portfolio di Alfieri Luca Pio, Full-Stack Web Developer in Italia. Scopri progetti di alta qualità che combinano design e funzionalità per trasformare idee in soluzioni digitali innovative.">
   <meta name="keywords"
-    content="Full-Stack Developer, Web Development, Alfieri Luca Pio, HTML, CSS, JavaScript, Java, Sql, Xml, Portfolio">
+    content="Portfolio Full-Stack Developer, Alfieri Luca Pio, Sviluppo Web, HTML, CSS, JavaScript, Java, SQL, XML, Saviano Napoli.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Portfolio di Alfieri Luca Pio | Full-Stack Web Developer in Italia">
+  <meta property="og:description"
+    content="Esplora il portfolio di Alfieri Luca Pio, Full-Stack Web Developer in Italia. Progetti di alta qualità che combinano design e funzionalità.">
+  <meta property="og:image" content="https://alfierilucapio.github.io/assets/images/Logo.png">
+  <meta property="og:url" content="https://alfierilucapio.github.io">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio di Alfieri Luca Pio">
+  <meta name="twitter:description"
+    content="Full-Stack Web Developer in Italia. Scopri progetti innovativi e soluzioni digitali su misura.">
+  <meta name="twitter:image" content="https://alfierilucapio.github.io/assets/images/Logo.png">
 
   <!-- viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,77 +49,80 @@
 
 <body>
 
-  <!-- caricamento -->
-  <div id="schermata_caricamento" class="fade-out">
-    <img id="video_caricamento" src="./assets/images/Lpa_caricamento.gif" alt="Gif di caricamento">
-  </div>
-
-  <!-- navbar -->
-  <nav id="navbar">
-    <!-- logo -->
-    <div class="logo" onclick="window.location.href='#home'">
-      <img src="./assets/images/Logo.png" alt="Logo Alfieri Luca Pio" width="30">
-      <h3 class="pcElement">Alfieri Luca Pio</h3>
+  <header>
+    <!-- caricamento -->
+    <div id="schermata_caricamento" class="fade-out">
+      <img id="video_caricamento" src="./assets/images/Lpa_caricamento.gif" alt="Gif di caricamento">
     </div>
 
-    <h3 class="mobileElement">Alfieri Luca Pio</h3>
+    <!-- navbar -->
+    <nav id="navbar">
+      <!-- logo -->
+      <div class="logo" onclick="window.location.href='#home'">
+        <img src="./assets/images/Logo.png" alt="Logo Alfieri Luca Pio" width="30">
+        <h3 class="pcElement">Alfieri Luca Pio</h3>
+      </div>
 
-    <!-- menu list -->
-    <ul>
-      <li>
-        <a href="#home">Home</a>
-      </li>
-      <li>
-        <a href="#about">Su di me</a>
-      </li>
-      <li>
-        <a href="./assets/html/linkContatti.html">Contatti</a>
-      </li>
-      <li>
-        <a href="./assets/html/certificati.html">Certificati</a>
-      </li>
-      <li class="menu mobileElement">
-        <button id="navMenu" onclick="mostraDiv()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </li>
-    </ul>
-  </nav>
+      <h3 class="mobileElement">Alfieri Luca Pio</h3>
 
-  <!-- mobile menu -->
-  <div id="mioDiv">
-    <div class="menuTendina mobileElement">
+      <!-- menu list -->
       <ul>
         <li>
-          <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='#home'">
-            Home
-          </button>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='#about'">
-            Su di me
-          </button>
+          <a href="#about">Su di me</a>
         </li>
         <li>
-          <button class="mostraDiv"
-            onclick="mostraDiv();animazioneMenu();window.location.href='/assets/html/certificati.html'">
-            Attestati
-          </button>
+          <a href="./assets/html/linkContatti.html">Contatti</a>
         </li>
         <li>
-          <button class="mostraDiv"
-            onclick="mostraDiv();animazioneMenu();window.location.href='/assets/html/linkContatti.html'">
-            Contatti
+          <a href="./assets/html/certificati.html">Certificati</a>
+        </li>
+        <li class="menu mobileElement">
+          <button id="navMenu" onclick="mostraDiv()">
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
         </li>
       </ul>
+    </nav>
+
+    <!-- mobile menu -->
+    <div id="mioDiv">
+      <div class="menuTendina mobileElement">
+        <ul>
+          <li>
+            <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='#home'">
+              Home
+            </button>
+          </li>
+          <li>
+            <button class="mostraDiv" onclick="mostraDiv();animazioneMenu();window.location.href='#about'">
+              Su di me
+            </button>
+          </li>
+          <li>
+            <button class="mostraDiv"
+              onclick="mostraDiv();animazioneMenu();window.location.href='/assets/html/certificati.html'">
+              Attestati
+            </button>
+          </li>
+          <li>
+            <button class="mostraDiv"
+              onclick="mostraDiv();animazioneMenu();window.location.href='/assets/html/linkContatti.html'">
+              Contatti
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </header>
+
 
   <!-- pages -->
-  <div id="mainPage">
+  <main id="mainPage">
     <!-- homepage -->
     <section id="home">
 
@@ -284,7 +303,7 @@
         </div>
       </div>
     </footer>
-  </div>
+  </main>
 
   <!-- javascript -->
   <script src="https://unpkg.com/scrollreveal"></script>
