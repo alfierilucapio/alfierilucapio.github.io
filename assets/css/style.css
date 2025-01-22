@@ -297,7 +297,6 @@ nav ul li a:hover {
 .text-side {
     padding-inline: 5vw;
     margin: auto;
-    text-align: center;
 }
 
 .text-side h3 {
@@ -310,7 +309,7 @@ nav ul li a:hover {
 
 .text-side h4 {
     font-size: 2.5vw;
-    padding-bottom: 3vh;
+    padding-bottom: 3.5vh;
 }
 
 .text-side p {
