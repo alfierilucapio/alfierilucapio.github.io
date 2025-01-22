@@ -30,6 +30,7 @@ button {
     overflow: hidden;
     align-items: center;
     vertical-align: middle;
+    text-align: center;
 }
 
 .certificate-card-image {
@@ -44,6 +45,7 @@ button {
 }
 
 .certificate-card p {
+    margin-top: 5px;
     display: flex;
     justify-content: center;
     color: rgb(145, 225, 15);
