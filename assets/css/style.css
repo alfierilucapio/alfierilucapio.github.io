@@ -312,9 +312,18 @@ nav ul li a:hover {
     padding-bottom: 3.5vh;
 }
 
-.text-side p {
+.text-side p , .text-side a {
     font-size: 1.5vw;
     color: #444444;
+}
+
+#projects .text-side {
+    text-align: center;
+}
+
+#projects .text-side a{
+    color:DeepSkyBlue;
+    text-decoration: underline;
 }
 
 #contact {
@@ -538,7 +547,7 @@ footer {
         font-size: 6vw;
     }
 
-    .text-side p {
+    .text-side p , .text-side a {
         font-size: 5vw;
     }
 
